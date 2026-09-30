@@ -46,7 +46,7 @@ jobs:
           curl -X POST --fail \
             -H "Accept: application/vnd.github.v3+json" \
             -H "Authorization: token ${{ secrets.MAIN_REPO_PAT }}" \
-            https://api.github.com/repos/openclaw-io/aipaths-academy/dispatches \
+            https://api.github.com/repos/aipaths/aipaths-academy/dispatches \
             -d '{"event_type":"content-updated","client_payload":{"ref":"${{ github.ref }}","sha":"${{ github.sha }}"}}'
 
       - name: Log success
