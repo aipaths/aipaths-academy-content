@@ -17,7 +17,7 @@ publishedAt: "2025-12-11T10:00:00Z"
 updatedAt: "2025-12-11T10:00:00Z"
 
 # Imagen de portada
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/docs/014_n8n-complete-beginners-guide/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/docs/014_n8n-complete-beginners-guide/hero.jpg"
 
 # Tags (IDs canonicos en ingles en minusculas)
 tags: ["n8n", "automation", "tools", "tutorial", "workflows", "productivity"]

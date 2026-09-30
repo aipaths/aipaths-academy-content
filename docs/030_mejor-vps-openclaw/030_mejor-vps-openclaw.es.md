@@ -6,7 +6,7 @@ description: "Si estás buscando dónde instalar OpenClaw para tener tu asistent
 author: "AIPaths Academy"
 publishedAt: "2026-03-25T12:12:38.070Z"
 updatedAt: "2026-03-25T12:12:38.070Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/030_mejor-vps-openclaw/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/030_mejor-vps-openclaw/hero.jpg"
 tags:
   - openclaw
   - vps

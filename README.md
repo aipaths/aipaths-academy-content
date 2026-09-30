@@ -268,8 +268,8 @@ async function example() {
 - **Contributing Guide**: See [CONTRIBUTING.md](./CONTRIBUTING.md)
 - **Doc Template**: [templates/doc-template.md](./templates/doc-template.md)
 - **Blog Template**: [templates/blog-template.md](./templates/blog-template.md)
-- **Issues**: [Report bugs or suggest content](https://github.com/openclaw-io/aipaths-academy-content/issues)
-- **Discussions**: [Ask questions](https://github.com/openclaw-io/aipaths-academy-content/discussions)
+- **Issues**: [Report bugs or suggest content](https://github.com/aipaths/aipaths-academy-content/issues)
+- **Discussions**: [Ask questions](https://github.com/aipaths/aipaths-academy-content/discussions)
 
 ## License
 
@@ -284,8 +284,8 @@ Just provide attribution to AIPaths Academy.
 
 ## Questions?
 
-- **Content questions**: [Open a Discussion](https://github.com/openclaw-io/aipaths-academy-content/discussions)
-- **Bug reports**: [Open an Issue](https://github.com/openclaw-io/aipaths-academy-content/issues)
+- **Content questions**: [Open a Discussion](https://github.com/aipaths/aipaths-academy-content/discussions)
+- **Bug reports**: [Open an Issue](https://github.com/aipaths/aipaths-academy-content/issues)
 - **Pull requests**: [Contributing Guide](./CONTRIBUTING.md)
 
 ---

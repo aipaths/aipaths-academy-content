@@ -17,7 +17,7 @@ publishedAt: "2025-11-06T00:00:00Z"
 updatedAt: "2025-11-06T00:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/docs/default-hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/docs/default-hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 # IMPORTANT: Both EN/ES versions MUST have IDENTICAL tags
@@ -1252,4 +1252,4 @@ Esto te da experiencia práctica con el stack completo en un fin de semana.
 
 ---
 
-**¿Preguntas?** ¡Abre un [issue](https://github.com/openclaw-io/aipaths-academy-content/issues) o únete a nuestras discusiones de comunidad!
+**¿Preguntas?** ¡Abre un [issue](https://github.com/aipaths/aipaths-academy-content/issues) o únete a nuestras discusiones de comunidad!

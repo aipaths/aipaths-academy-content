@@ -6,7 +6,7 @@ description: "If your AI agent reads emails and can reply, classify leads, or tr
 author: "AIPaths Academy"
 publishedAt: "2026-05-15T12:00:00.000Z"
 updatedAt: "2026-05-15T12:00:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/tres-formas-secuestrar-agente-ia-email/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/tres-formas-secuestrar-agente-ia-email/hero.png"
 tags:
   - ai-agents
   - ai-security

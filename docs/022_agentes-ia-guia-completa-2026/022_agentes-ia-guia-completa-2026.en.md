@@ -6,7 +6,7 @@ description: "The definitive guide to AI agents in 2026. What they are, how they
 author: "AIPaths Academy"
 publishedAt: "2026-03-02T12:09:52.926Z"
 updatedAt: "2026-03-02T12:50:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/022_agentes-ia-guia-completa-2026/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/022_agentes-ia-guia-completa-2026/hero.jpg"
 tags:
   - ai-agents
   - openclaw

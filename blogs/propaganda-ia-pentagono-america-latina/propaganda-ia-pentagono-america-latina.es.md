@@ -6,7 +6,7 @@ description: "El caso La Tilde muestra cómo la IA reduce el costo de montar med
 author: "AIPaths Academy"
 publishedAt: "2026-06-15T19:00:00.000Z"
 updatedAt: "2026-06-15T19:00:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/propaganda-ia-pentagono-america-latina/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/propaganda-ia-pentagono-america-latina/hero.png"
 tags:
   - ai-security
   - influence-operations

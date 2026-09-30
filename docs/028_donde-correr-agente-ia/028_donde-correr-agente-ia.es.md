@@ -6,7 +6,7 @@ description: "Antes de elegir herramientas, antes de diseñar prompts, antes de 
 author: "AIPaths Academy"
 publishedAt: "2026-03-23T12:09:03.524Z"
 updatedAt: "2026-03-23T12:09:03.524Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/028_donde-correr-agente-ia/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/028_donde-correr-agente-ia/hero.jpg"
 tags:
   - ai-agents
   - openclaw

@@ -17,7 +17,7 @@ publishedAt: "2025-12-15T10:00:00Z"
 updatedAt: "2025-12-15T10:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/014_n8n-ai-first-platform/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/014_n8n-ai-first-platform/hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 tags: ["n8n", "ai", "automation", "ai-agents", "news", "tools"]

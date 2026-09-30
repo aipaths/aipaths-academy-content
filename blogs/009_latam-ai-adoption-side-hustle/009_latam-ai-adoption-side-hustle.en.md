@@ -6,7 +6,7 @@ description: Discover how the massive AI adoption wave in Latin America is creat
 author: AIPaths Academy
 publishedAt: 2025-11-20T10:00:00Z
 updatedAt: 2025-11-20T10:00:00Z
-coverImage: https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/009_latam-ai-adoption-side-hustle/hero.jpg
+coverImage: https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/009_latam-ai-adoption-side-hustle/hero.jpg
 tags:
   - ai-agents
   - side-hustle
@@ -632,7 +632,7 @@ The only question is: **Will you watch it happen, or will you profit from it?**
 
 ---
 
-**Have questions or feedback?** [Open an issue on GitHub](https://github.com/openclaw-io/aipaths-academy-content/issues) or share your success story!
+**Have questions or feedback?** [Open an issue on GitHub](https://github.com/aipaths/aipaths-academy-content/issues) or share your success story!
 
 **Found this helpful?** Share it with other developers and solopreneurs in LATAM who could benefit from these opportunities.
 

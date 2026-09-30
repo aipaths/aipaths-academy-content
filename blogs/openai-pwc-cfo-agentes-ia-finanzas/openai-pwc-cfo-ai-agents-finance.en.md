@@ -6,7 +6,7 @@ description: "OpenAI and PwC are building AI agents for corporate finance. What 
 author: "AIPaths Academy"
 publishedAt: "2026-06-03T12:00:00+00:00"
 updatedAt: "2026-06-03T12:00:00+00:00"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/openai-pwc-cfo-agentes-ia-finanzas/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/openai-pwc-cfo-agentes-ia-finanzas/hero.png"
 tags:
   - ai-agents
   - openai

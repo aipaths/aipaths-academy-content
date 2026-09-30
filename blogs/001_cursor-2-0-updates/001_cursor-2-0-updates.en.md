@@ -17,7 +17,7 @@ publishedAt: "2025-10-25T00:00:00Z"
 updatedAt: "2025-10-25T00:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/001_cursor-2-0-updates/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/001_cursor-2-0-updates/hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 # IMPORTANT: Both EN/ES versions MUST have IDENTICAL tags
@@ -602,7 +602,7 @@ Give it one week of serious use. I predict you won't want to go back.
 
 **Have you tried Cursor 2.0?** What's your experience been? Share in the comments!
 
-**Questions about specific features?** Drop them below or [open an issue on GitHub](https://github.com/openclaw-io/aipaths-academy-content/issues)!
+**Questions about specific features?** Drop them below or [open an issue on GitHub](https://github.com/aipaths/aipaths-academy-content/issues)!
 
 **Want video walkthroughs?** Let us know what features you want to see demonstrated!
 

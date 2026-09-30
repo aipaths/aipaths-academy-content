@@ -17,7 +17,7 @@ publishedAt: "2025-10-20T00:00:00Z"
 updatedAt: "2025-10-20T00:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/007_rag-documentation-chatbot/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/007_rag-documentation-chatbot/hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 # IMPORTANT: Both EN/ES versions MUST have IDENTICAL tags
@@ -1218,6 +1218,6 @@ Ahora tienes un chatbot de documentación listo para producción potenciado por 
 
 **¿Construiste un chatbot de documentación?** ¡Comparte tus resultados y cualquier mejora que hayas hecho!
 
-**¿Preguntas o atascado en un paso?** ¡Deja un comentario abajo o [abre un issue en GitHub](https://github.com/openclaw-io/aipaths-academy-content/issues)!
+**¿Preguntas o atascado en un paso?** ¡Deja un comentario abajo o [abre un issue en GitHub](https://github.com/aipaths/aipaths-academy-content/issues)!
 
 **¿Quieres ver más tutoriales de RAG?** Déjanos saber qué casos de uso te interesan—soporte al cliente, asistentes de investigación, documentación de código?

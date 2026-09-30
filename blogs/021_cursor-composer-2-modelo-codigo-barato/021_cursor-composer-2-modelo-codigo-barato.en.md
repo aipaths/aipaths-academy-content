@@ -6,7 +6,7 @@ description: "Cursor launched Composer 2, its own code-specialized AI model. It 
 author: "AIPaths Academy"
 publishedAt: "2026-03-20T16:07:37.049Z"
 updatedAt: "2026-03-20T16:07:37.049Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/021_cursor-composer-2-modelo-codigo-barato/hero.png?v=1774029737"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/021_cursor-composer-2-modelo-codigo-barato/hero.png?v=1774029737"
 tags:
   - news
   - ai-agents

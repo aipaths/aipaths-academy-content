@@ -6,7 +6,7 @@ description: Google launches Gemini 3 with record-breaking benchmarks and Antigr
 author: AIPaths Academy
 publishedAt: 2025-11-24T05:00:00Z
 updatedAt: 2025-11-24T05:00:00Z
-coverImage: https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/010_gemini-3-antigravity-announcement/hero.jpg
+coverImage: https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/010_gemini-3-antigravity-announcement/hero.jpg
 tags:
   - ai
   - news

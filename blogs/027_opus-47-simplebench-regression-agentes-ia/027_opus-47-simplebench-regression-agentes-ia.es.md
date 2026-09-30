@@ -6,7 +6,7 @@ description: "Un benchmark viral mostró a Claude Opus 4.7 por debajo de Opus 4.
 author: "AIPaths Academy"
 publishedAt: "2026-04-25T17:30:07.782Z"
 updatedAt: "2026-04-25T17:49:51.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/027_opus-47-simplebench-regression-agentes-ia/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/027_opus-47-simplebench-regression-agentes-ia/hero.png"
 tags:
   - claude
   - anthropic

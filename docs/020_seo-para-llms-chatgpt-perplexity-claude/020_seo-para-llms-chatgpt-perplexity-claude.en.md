@@ -6,7 +6,7 @@ description: "Complete GEO (Generative Engine Optimization) guide: how to optimi
 author: "AIPaths Academy"
 publishedAt: "2026-02-25T12:01:07.501Z"
 updatedAt: "2026-02-25T12:01:07.501Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/020_seo-para-llms-chatgpt-perplexity-claude/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/020_seo-para-llms-chatgpt-perplexity-claude/hero.jpg"
 tags:
   - seo
   - ai

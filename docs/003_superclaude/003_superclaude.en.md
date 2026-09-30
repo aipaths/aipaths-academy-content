@@ -17,7 +17,7 @@ publishedAt: "2025-11-01T00:00:00Z"
 updatedAt: "2025-11-01T00:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/docs/default-hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/docs/default-hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 # IMPORTANT: Both EN/ES versions MUST have IDENTICAL tags
@@ -150,4 +150,4 @@ SuperClaude excels at:
 
 ---
 
-**Questions?** Visit the [SuperClaude GitHub repository](https://github.com/SuperClaude-Org/SuperClaude_Framework) or open an [issue](https://github.com/openclaw-io/aipaths-academy-content/issues) for AIPaths Academy content!
+**Questions?** Visit the [SuperClaude GitHub repository](https://github.com/SuperClaude-Org/SuperClaude_Framework) or open an [issue](https://github.com/aipaths/aipaths-academy-content/issues) for AIPaths Academy content!

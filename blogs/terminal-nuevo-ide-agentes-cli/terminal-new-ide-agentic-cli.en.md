@@ -3,7 +3,7 @@ content_id: blogs-terminal-nuevo-ide-agentes-cli
 author: AIPaths Academy
 publishedAt: '2026-05-18T12:00:00.000Z'
 updatedAt: '2026-05-18T12:00:00.000Z'
-coverImage: 'https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/terminal-nuevo-ide-agentes-cli/hero.png'
+coverImage: 'https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/terminal-nuevo-ide-agentes-cli/hero.png'
 locale: en
 title: 'The Terminal Is the New IDE: Why CLI Agents Are Changing How We Code'
 description: 'CLI agents like Claude Code, Codex CLI, Gemini CLI, and Copilot CLI are turning the terminal into the new development hub. What changes, what risks it creates, and how to adopt it without losing control.'

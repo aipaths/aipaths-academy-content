@@ -6,7 +6,7 @@ description: "Notion quiere convertir su workspace en un hub para agentes de IA.
 author: "AIPaths Academy"
 publishedAt: "2026-06-02T12:00:00.000Z"
 updatedAt: "2026-06-02T12:00:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/notion-hub-agentes-ia-workspace/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/notion-hub-agentes-ia-workspace/hero.png"
 tags:
   - notion
   - ai-agents

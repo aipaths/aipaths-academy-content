@@ -6,7 +6,7 @@ description: "Tutorial paso a paso para crear presentaciones profesionales con K
 author: "AIPaths Academy"
 publishedAt: "2026-02-22T18:15:58.954Z"
 updatedAt: "2026-02-22T18:15:58.954Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/019_kimi-ai-presentaciones-slides-tutorial/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/019_kimi-ai-presentaciones-slides-tutorial/hero.jpg"
 tags:
   - ai
   - tools

@@ -17,7 +17,7 @@ publishedAt: "2026-01-15T12:00:00Z"
 updatedAt: "2026-01-15T12:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/015_meta-whatsapp-api-2026-policy/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/015_meta-whatsapp-api-2026-policy/hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 tags:

@@ -6,7 +6,7 @@ description: "Perplexity acaba de lanzar algo que confirma lo que venimos dicien
 author: "AIPaths Academy"
 publishedAt: "2026-03-22T12:18:41.073Z"
 updatedAt: "2026-03-22T12:18:41.073Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/023_perplexity-personal-computer-vs-openclaw/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/023_perplexity-personal-computer-vs-openclaw/hero.png"
 tags:
   - ai-agents
   - openclaw

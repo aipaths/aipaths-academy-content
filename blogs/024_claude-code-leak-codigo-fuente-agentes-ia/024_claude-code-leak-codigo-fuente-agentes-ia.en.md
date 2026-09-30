@@ -6,7 +6,7 @@ description: "A leaked sourcemap file exposed Claude Code's entire codebase — 
 author: "AIPaths Academy"
 publishedAt: "2026-04-02T11:13:55.048Z"
 updatedAt: "2026-04-02T11:13:55.048Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/024_claude-code-leak-codigo-fuente-agentes-ia/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/024_claude-code-leak-codigo-fuente-agentes-ia/hero.png"
 tags:
   - claude
   - ai-agents

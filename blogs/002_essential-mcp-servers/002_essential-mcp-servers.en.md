@@ -17,7 +17,7 @@ publishedAt: "2025-10-28T00:00:00Z"
 updatedAt: "2025-10-28T00:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/002_essential-mcp-servers/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/002_essential-mcp-servers/hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 # IMPORTANT: Both EN/ES versions MUST have IDENTICAL tags
@@ -603,6 +603,6 @@ Ready to supercharge your Claude setup?
 
 **Enjoyed this post?** Share it with others who might find it useful!
 
-**Have questions or feedback?** Drop a comment below or [open an issue on GitHub](https://github.com/openclaw-io/aipaths-academy-content/issues)!
+**Have questions or feedback?** Drop a comment below or [open an issue on GitHub](https://github.com/aipaths/aipaths-academy-content/issues)!
 
 **What MCP servers are you using?** We'd love to hear about your setup and workflows!

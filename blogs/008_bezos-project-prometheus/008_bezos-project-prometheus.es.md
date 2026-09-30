@@ -17,7 +17,7 @@ publishedAt: "2025-11-19T10:00:00Z"
 updatedAt: "2025-11-19T10:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/008_bezos-project-prometheus/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/008_bezos-project-prometheus/hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 # IMPORTANT: Both EN/ES versions MUST have IDENTICAL tags

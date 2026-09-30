@@ -6,7 +6,7 @@ description: "El viernes 27 de febrero de 2026, el presidente Trump ordenó a to
 author: "AIPaths Academy"
 publishedAt: "2026-03-04T09:42:11.738Z"
 updatedAt: "2026-03-04T09:42:11.738Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/018_anthropic-pentagono-ia-etica-seguridad-2026/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/018_anthropic-pentagono-ia-etica-seguridad-2026/hero.png"
 tags:
   - claude
   - chatgpt

@@ -6,7 +6,7 @@ description: "Trump blacklisted Anthropic for refusing mass surveillance and aut
 author: "AIPaths Academy"
 publishedAt: "2026-03-04T09:42:12.713Z"
 updatedAt: "2026-03-10T18:00:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/018_anthropic-pentagono-ia-etica-seguridad-2026/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/018_anthropic-pentagono-ia-etica-seguridad-2026/hero.png"
 tags:
   - claude
   - chatgpt

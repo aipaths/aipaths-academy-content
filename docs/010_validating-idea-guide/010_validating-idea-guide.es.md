@@ -17,7 +17,7 @@ publishedAt: "2025-11-28T10:00:00Z"
 updatedAt: "2025-11-28T10:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/docs/010_validating-idea-guide/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/docs/010_validating-idea-guide/hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 # IMPORTANT: Both EN/ES versions MUST have IDENTICAL tags

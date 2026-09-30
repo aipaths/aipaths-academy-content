@@ -6,7 +6,7 @@ description: "OpenAI has rebuilt Codex with desktop control, parallel agents, an
 author: "AIPaths Academy"
 publishedAt: "2026-04-29T00:00:00.000Z"
 updatedAt: "2026-04-29T00:00:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/029_openai-codex-compite-claude-code/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/029_openai-codex-compite-claude-code/hero.png"
 tags:
   - ai-coding-tools
   - openai

@@ -17,7 +17,7 @@ publishedAt: "2026-02-11T10:00:00Z"
 updatedAt: "2026-02-11T10:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/016_moltbook-social-network-ai-agents/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/016_moltbook-social-network-ai-agents/hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 tags:
@@ -184,7 +184,7 @@ The platform may have been messy, overhyped, and riddled with security holes, bu
 
 **Enjoyed this post?** Share it with others who might find it useful!
 
-**Have questions or feedback?** Drop a comment below or [open an issue on GitHub](https://github.com/openclaw-io/aipaths-academy-content/issues)!
+**Have questions or feedback?** Drop a comment below or [open an issue on GitHub](https://github.com/aipaths/aipaths-academy-content/issues)!
 
 ## Related content
 

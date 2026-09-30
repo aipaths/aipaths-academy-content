@@ -17,7 +17,7 @@ publishedAt: "2025-10-30T00:00:00Z"
 updatedAt: "2025-10-30T00:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/003_prompt-patterns-workflow/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/003_prompt-patterns-workflow/hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 # IMPORTANT: Both EN/ES versions MUST have IDENTICAL tags
@@ -885,6 +885,6 @@ Estos 10 patrones transformaron mi flujo de trabajo con Claude de frustrante a i
 
 **¿Te resultó útil?** ¡Compártelo con tu equipo!
 
-**¿Tienes un patrón que te funciona genial?** ¡Deja un comentario abajo o [abre un issue en GitHub](https://github.com/openclaw-io/aipaths-academy-content/issues)!
+**¿Tienes un patrón que te funciona genial?** ¡Deja un comentario abajo o [abre un issue en GitHub](https://github.com/aipaths/aipaths-academy-content/issues)!
 
 **¿Quieres ver más ejemplos?** Revisa nuestros [ejemplos del Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook).

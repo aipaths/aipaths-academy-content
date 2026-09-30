@@ -6,7 +6,7 @@ description: "En febrero de 2026, el término \"agentic engineering\" reemplazó
 author: "AIPaths Academy"
 publishedAt: "2026-03-12T16:40:44.204Z"
 updatedAt: "2026-03-12T16:40:44.204Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/024_agentic-engineering-framework/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/024_agentic-engineering-framework/hero.jpg"
 tags:
   - ai-agents
   - agentic-engineering

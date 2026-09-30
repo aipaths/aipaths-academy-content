@@ -17,7 +17,7 @@ publishedAt: "2025-12-17T12:00:00Z"
 updatedAt: "2025-12-17T12:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/docs/015_n8n-ai-news-workflow-free/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/docs/015_n8n-ai-news-workflow-free/hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 tags: ["n8n", "automation", "ai", "tutorial", "api", "free-tools", "ai-cli"]

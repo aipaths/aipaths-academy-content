@@ -17,7 +17,7 @@ publishedAt: "2025-11-28T10:00:00Z"
 updatedAt: "2025-11-28T10:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/012_why-90-percent-saas-launches-fail/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/012_why-90-percent-saas-launches-fail/hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 tags:

@@ -6,7 +6,7 @@ description: "Google updated Stitch with Vibe Design, Voice Canvas, and React co
 author: "AIPaths Academy"
 publishedAt: "2026-03-21T12:11:47.137Z"
 updatedAt: "2026-03-21T12:11:47.137Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/022_google-stitch-vs-figma-vibe-design-ia/hero.png?v=1774095240"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/022_google-stitch-vs-figma-vibe-design-ia/hero.png?v=1774095240"
 tags:
   - news
   - vibe-coding

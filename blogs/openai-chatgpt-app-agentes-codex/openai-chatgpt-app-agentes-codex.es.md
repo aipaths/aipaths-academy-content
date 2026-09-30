@@ -6,7 +6,7 @@ description: "OpenAI prepara una reestructuración de ChatGPT hacia agentes, Cod
 author: "AIPaths Academy"
 publishedAt: "2026-08-03T19:00:00.000Z"
 updatedAt: "2026-08-03T19:00:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/openai-chatgpt-app-agentes-codex/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/openai-chatgpt-app-agentes-codex/hero.png"
 tags:
   - openai
   - chatgpt
