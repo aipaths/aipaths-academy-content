@@ -6,7 +6,7 @@ description: "The story of Peter Steinberger: from bootstrapping PSPDFKit to a â
 author: "AIPaths Academy"
 publishedAt: "2026-02-19T20:12:24.602Z"
 updatedAt: "2026-02-20T10:00:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/017_peter-steinberger-creador-openclaw-de-pdfs-a-agentes-ia/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/017_peter-steinberger-creador-openclaw-de-pdfs-a-agentes-ia/hero.png"
 tags:
   - openclaw
   - ai-agents

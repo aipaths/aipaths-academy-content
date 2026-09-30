@@ -6,7 +6,7 @@ description: "Stanford CS336 published rules for AI agents that help without sol
 author: "AIPaths Academy"
 publishedAt: "2026-08-03T12:00:00.000Z"
 updatedAt: "2026-08-03T12:00:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/033_stanford-reglas-agentes-ia-negocio/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/033_stanford-reglas-agentes-ia-negocio/hero.png"
 tags:
   - ai-agents
   - ai-coding-tools

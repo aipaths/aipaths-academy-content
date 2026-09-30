@@ -6,7 +6,7 @@ description: "Apple reportedly plans to open Apple Intelligence to third-party A
 author: "AIPaths Academy"
 publishedAt: "2026-05-15T19:00:00.000Z"
 updatedAt: "2026-05-15T19:00:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/apple-ios-27-modelos-ia/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/apple-ios-27-modelos-ia/hero.png"
 tags:
   - apple
   - ios-27

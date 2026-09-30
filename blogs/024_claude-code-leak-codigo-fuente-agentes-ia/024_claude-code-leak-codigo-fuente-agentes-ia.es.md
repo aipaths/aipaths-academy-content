@@ -6,7 +6,7 @@ description: "El 31 de marzo de 2026, alguien en Anthropic cometió un error hum
 author: "AIPaths Academy"
 publishedAt: "2026-04-02T11:13:53.843Z"
 updatedAt: "2026-04-02T11:13:53.843Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/024_claude-code-leak-codigo-fuente-agentes-ia/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/024_claude-code-leak-codigo-fuente-agentes-ia/hero.png"
 tags:
   - claude
   - ai-agents

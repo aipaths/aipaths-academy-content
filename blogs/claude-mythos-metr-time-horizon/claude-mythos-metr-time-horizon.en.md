@@ -6,7 +6,7 @@ description: "Claude Mythos pushed beyond METR's reliable benchmark range. What 
 author: "AIPaths Academy"
 publishedAt: "2026-06-02T19:00:00+00:00"
 updatedAt: "2026-06-02T19:00:00+00:00"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/claude-mythos-metr-time-horizon/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/claude-mythos-metr-time-horizon/hero.png"
 tags:
   - claude
   - ai-agents

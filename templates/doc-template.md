@@ -22,7 +22,7 @@ updatedAt: "2025-01-15T10:00:00Z"
 # Cover image (absolute URL or path)
 # Optional for docs, but include for consistency
 # Can use a category/topic-based default image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/docs/XXX_folder-name/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/docs/XXX_folder-name/hero.jpg"
 
 # Tags (4-8 recommended, use canonical lowercase English IDs)
 # If a legacy English counterpart exists, its tags are left as they are

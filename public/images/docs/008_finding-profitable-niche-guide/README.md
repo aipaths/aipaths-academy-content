@@ -12,7 +12,7 @@ Upload the hero image for this documentation as:
 
 Once uploaded, the image will be accessible at:
 ```
-https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/docs/008_finding-profitable-niche-guide/hero.jpg
+https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/docs/008_finding-profitable-niche-guide/hero.jpg
 ```
 
 This URL is already set in the document's frontmatter `coverImage` field.

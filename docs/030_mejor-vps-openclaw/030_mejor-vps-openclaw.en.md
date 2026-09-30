@@ -6,7 +6,7 @@ description: "If you want to run OpenClaw 24/7 without dedicated hardware at hom
 author: "AIPaths Academy"
 publishedAt: "2026-03-25T12:12:39.095Z"
 updatedAt: "2026-03-25T12:12:39.095Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/030_mejor-vps-openclaw/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/030_mejor-vps-openclaw/hero.jpg"
 tags:
   - openclaw
   - vps

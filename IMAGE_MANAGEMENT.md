@@ -46,7 +46,7 @@ public/
 ---
 title: "Cursor 2.0: The AI Coding Revolution"
 description: "..."
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/001_cursor-2-0-updates/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/001_cursor-2-0-updates/hero.jpg"
 author: AIPaths Academy
 ---
 ```
@@ -72,7 +72,7 @@ The script `scripts/update-blog-images-github.js` has already updated all blog p
 For new posts, add:
 
 ```yaml
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/[blog-folder]/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/[blog-folder]/hero.jpg"
 ```
 
 ### Step 3: Commit and Push
@@ -160,12 +160,12 @@ This script:
 
 1. **Verify image exists on GitHub**:
    ```
-   https://github.com/openclaw-io/aipaths-academy-content/tree/main/public/images/blogs
+   https://github.com/aipaths/aipaths-academy-content/tree/main/public/images/blogs
    ```
 
 2. **Check the raw URL works**:
    ```
-   https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/001_cursor-2-0-updates/hero.jpg
+   https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/001_cursor-2-0-updates/hero.jpg
    ```
 
 3. **Ensure image is committed and pushed**:
@@ -219,7 +219,7 @@ mkdir -p public/images/blogs/008_new-blog
 cp ~/hero.jpg public/images/blogs/008_new-blog/hero.jpg
 
 # 5. Add to frontmatter
-echo 'coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/008_new-blog/hero.jpg"'
+echo 'coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/008_new-blog/hero.jpg"'
 
 # 6. Commit and push
 git add .

@@ -17,7 +17,7 @@ publishedAt: "2025-11-10T00:00:00Z"
 updatedAt: "2025-11-10T00:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/docs/default-hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/docs/default-hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 # IMPORTANT: Both EN/ES versions MUST have IDENTICAL tags
@@ -180,4 +180,4 @@ Ahora que entiendes los agentes de IA:
 
 ---
 
-**¿Preguntas?** ¡Abre un [issue](https://github.com/openclaw-io/aipaths-academy-content/issues) o únete a nuestras discusiones de la comunidad!
+**¿Preguntas?** ¡Abre un [issue](https://github.com/aipaths/aipaths-academy-content/issues) o únete a nuestras discusiones de la comunidad!

@@ -6,7 +6,7 @@ description: "Tu agente de IA tiene acceso a tus canales de comunicación, puede
 author: "AIPaths Academy"
 publishedAt: "2026-03-07T12:14:58.570Z"
 updatedAt: "2026-03-07T12:14:58.570Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/023_seguridad-agentes-ia-guia-practica/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/023_seguridad-agentes-ia-guia-practica/hero.jpg"
 tags:
   - ai-agents
   - security

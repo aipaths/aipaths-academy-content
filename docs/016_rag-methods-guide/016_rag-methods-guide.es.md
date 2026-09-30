@@ -17,7 +17,7 @@ publishedAt: "2026-01-08T10:00:00Z"
 updatedAt: "2026-01-08T10:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/docs/016_rag-methods-guide/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/docs/016_rag-methods-guide/hero.jpg"
 
 # Tags
 tags: ["ai-agents", "rag", "guide", "n8n", "automation", "vector-database"]

@@ -6,7 +6,7 @@ description: "Si todavía pensás que un agente de IA es simplemente un chatbot 
 author: "AIPaths Academy"
 publishedAt: "2026-03-02T12:09:52.926Z"
 updatedAt: "2026-03-02T12:09:52.926Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/022_agentes-ia-guia-completa-2026/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/022_agentes-ia-guia-completa-2026/hero.jpg"
 tags:
   - ai-agents
   - openclaw

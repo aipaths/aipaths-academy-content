@@ -6,7 +6,7 @@ description: "Te configuraste un agente de IA. Le diste instrucciones, le conect
 author: "AIPaths Academy"
 publishedAt: "2026-03-18T15:26:41.757Z"
 updatedAt: "2026-03-18T15:26:41.757Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/027_optimizar-costos-agente-ia/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/027_optimizar-costos-agente-ia/hero.jpg"
 tags:
   - ai-agents
   - openclaw

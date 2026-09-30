@@ -6,7 +6,7 @@ description: "Comparativa por tipos de agentes de IA gratis en 2026: chats, agen
 author: "AIPaths Academy"
 publishedAt: "2026-04-24T10:00:00Z"
 updatedAt: "2026-04-25T14:00:00Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/026_agentes-ia-gratis-2026/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/026_agentes-ia-gratis-2026/hero.jpg"
 tags: ["ai-agents", "openclaw", "automation", "tools", "free"]
 readingTime: 7
 ---

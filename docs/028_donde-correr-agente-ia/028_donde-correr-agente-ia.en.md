@@ -6,7 +6,7 @@ description: "You have the agent configured, prompts ready, everything works on 
 author: "AIPaths Academy"
 publishedAt: "2026-03-23T12:09:13.810Z"
 updatedAt: "2026-03-23T12:09:13.810Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/028_donde-correr-agente-ia/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/028_donde-correr-agente-ia/hero.jpg"
 tags:
   - ai-agents
   - openclaw

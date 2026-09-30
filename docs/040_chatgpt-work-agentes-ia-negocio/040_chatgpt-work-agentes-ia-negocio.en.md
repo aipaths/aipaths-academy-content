@@ -6,7 +6,7 @@ description: "A complete guide to ChatGPT Work, Codex, Projects, Scheduled Tasks
 author: "AIPaths Academy"
 publishedAt: "2026-07-30T16:42:24Z"
 updatedAt: "2026-07-30T16:42:24Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/docs/040_chatgpt-work-agentes-ia-negocio/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/docs/040_chatgpt-work-agentes-ia-negocio/hero.png"
 tags:
   - chatgpt
   - codex

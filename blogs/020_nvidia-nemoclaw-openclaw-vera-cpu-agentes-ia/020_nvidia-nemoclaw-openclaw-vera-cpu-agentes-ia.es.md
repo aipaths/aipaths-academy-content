@@ -6,7 +6,7 @@ description: "Jensen Huang acaba de decir algo que confirma lo que venimos const
 author: "AIPaths Academy"
 publishedAt: "2026-03-17T16:24:14.706Z"
 updatedAt: "2026-03-17T16:24:14.706Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/020_nvidia-nemoclaw-openclaw-vera-cpu-agentes-ia/hero.png?v=1773775782"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/020_nvidia-nemoclaw-openclaw-vera-cpu-agentes-ia/hero.png?v=1773775782"
 tags:
   - ai-agents
   - openclaw

@@ -6,7 +6,7 @@ description: Descubre cómo la masiva ola de adopción de IA en Latinoamérica e
 author: AIPaths Academy
 publishedAt: 2025-11-20T10:00:00Z
 updatedAt: 2025-11-20T10:00:00Z
-coverImage: https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/009_latam-ai-adoption-side-hustle/hero.jpg
+coverImage: https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/009_latam-ai-adoption-side-hustle/hero.jpg
 tags:
   - ai-agents
   - side-hustle
@@ -632,7 +632,7 @@ La única pregunta es: **¿La verás suceder, o aprovecharás para ganar con ell
 
 ---
 
-**¿Tienes preguntas o comentarios?** [Abre un issue en GitHub](https://github.com/openclaw-io/aipaths-academy-content/issues) o comparte tu historia de éxito!
+**¿Tienes preguntas o comentarios?** [Abre un issue en GitHub](https://github.com/aipaths/aipaths-academy-content/issues) o comparte tu historia de éxito!
 
 **¿Te resultó útil?** Compártelo con otros desarrolladores y emprendedores en solitario en LATAM que podrían beneficiarse de estas oportunidades.
 

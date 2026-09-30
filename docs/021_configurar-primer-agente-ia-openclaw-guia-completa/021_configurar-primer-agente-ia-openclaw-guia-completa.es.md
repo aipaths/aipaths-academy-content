@@ -6,7 +6,7 @@ description: "Tener un agente de IA funcionando 24/7 en tu propia máquina suena
 author: "AIPaths Academy"
 publishedAt: "2026-02-27T14:48:54.643Z"
 updatedAt: "2026-02-27T14:48:54.643Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/021_configurar-primer-agente-ia-openclaw-guia-completa/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/021_configurar-primer-agente-ia-openclaw-guia-completa/hero.jpg"
 tags:
   - openclaw
   - ai-agents

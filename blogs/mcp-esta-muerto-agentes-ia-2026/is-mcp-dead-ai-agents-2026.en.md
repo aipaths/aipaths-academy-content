@@ -7,7 +7,7 @@ description: "MCP is not dead, but using it by default can make agents harder to
 author: "AIPaths Academy"
 publishedAt: "2026-07-01T12:00:00.000Z"
 updatedAt: "2026-07-01T12:00:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/mcp-esta-muerto-agentes-ia-2026/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/mcp-esta-muerto-agentes-ia-2026/hero.png"
 tags:
   - ai-agents
   - mcp

@@ -6,7 +6,7 @@ description: "Claude Design promete pasar de una idea a prototipos, slides y dis
 author: "AIPaths Academy"
 publishedAt: "2026-05-07T12:00:00.000Z"
 updatedAt: "2026-05-07T12:00:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/031_claude-design-utilidad-o-hype/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/031_claude-design-utilidad-o-hype/hero.png"
 tags:
   - claude
   - ai-design

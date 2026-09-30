@@ -17,7 +17,7 @@ publishedAt: "2025-10-27T00:00:00Z"
 updatedAt: "2025-10-27T00:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/004_claude-code-vs-cursor/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/004_claude-code-vs-cursor/hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 # IMPORTANT: Both EN/ES versions MUST have IDENTICAL tags
@@ -558,7 +558,7 @@ But for professional developers building complex production systems, **Claude Co
 
 **Made the switch from Cursor to Claude?** Share your experience in the comments!
 
-**Still deciding?** Ask questions below or [open an issue on GitHub](https://github.com/openclaw-io/aipaths-academy-content/issues)!
+**Still deciding?** Ask questions below or [open an issue on GitHub](https://github.com/aipaths/aipaths-academy-content/issues)!
 
 **Want configuration examples?** Let me know what you're building and I'll share specific configs!
 

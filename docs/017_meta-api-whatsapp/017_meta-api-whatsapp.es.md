@@ -17,7 +17,7 @@ publishedAt: "2026-01-15T10:00:00Z"
 updatedAt: "2026-01-15T10:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/docs/017_meta-api-whatsapp/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/docs/017_meta-api-whatsapp/hero.jpg"
 
 # Tags
 tags: ["guide", "whatsapp", "api", "automation", "n8n", "chatbot"]

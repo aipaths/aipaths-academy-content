@@ -6,7 +6,7 @@ description: "Anthropic created Project Deal: an internal marketplace where Clau
 author: "AIPaths Academy"
 publishedAt: "2026-04-26T00:00:00.000Z"
 updatedAt: "2026-04-26T00:00:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/028_anthropic-project-deal-comercio-agentes-ia/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/028_anthropic-project-deal-comercio-agentes-ia/hero.png"
 tags:
   - ai-agents
   - claude

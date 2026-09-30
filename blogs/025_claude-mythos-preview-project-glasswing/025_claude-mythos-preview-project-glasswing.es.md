@@ -6,7 +6,7 @@ description: "Anthropic anunció Claude Mythos, un modelo capaz de descubrir y e
 author: "AIPaths Academy"
 publishedAt: "2026-04-10T12:00:00.000Z"
 updatedAt: "2026-04-10T12:00:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/025_claude-mythos-preview-project-glasswing/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/025_claude-mythos-preview-project-glasswing/hero.jpg"
 tags:
   - claude
   - anthropic

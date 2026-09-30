@@ -6,7 +6,7 @@ description: "Cursor acaba de lanzar algo que cambia las reglas del juego: Compo
 author: "AIPaths Academy"
 publishedAt: "2026-03-20T16:07:36.087Z"
 updatedAt: "2026-03-20T16:07:36.087Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/021_cursor-composer-2-modelo-codigo-barato/hero.png?v=1774029737"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/021_cursor-composer-2-modelo-codigo-barato/hero.png?v=1774029737"
 tags:
   - news
   - ai-agents

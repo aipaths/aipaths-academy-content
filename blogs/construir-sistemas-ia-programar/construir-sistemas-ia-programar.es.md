@@ -6,7 +6,7 @@ description: "Programar con IA es más fácil que nunca, pero la ventaja real es
 author: "AIPaths Academy"
 publishedAt: "2026-06-15T12:00:00.000Z"
 updatedAt: "2026-06-15T12:00:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/construir-sistemas-ia-programar/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/construir-sistemas-ia-programar/hero.png"
 tags:
   - ai-coding-tools
   - agentic-engineering

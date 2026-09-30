@@ -17,7 +17,7 @@ publishedAt: "2025-12-09T10:00:00Z"
 updatedAt: "2025-12-09T10:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/docs/012_context-engineering-evolution/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/docs/012_context-engineering-evolution/hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 tags: ["intermediate", "ai-agents", "guide", "prompt-engineering", "productivity", "developer-tools"]

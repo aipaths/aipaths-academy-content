@@ -6,7 +6,7 @@ description: "El 18 de marzo, Google actualizó Stitch — su herramienta de dis
 author: "AIPaths Academy"
 publishedAt: "2026-03-21T12:11:46.038Z"
 updatedAt: "2026-03-21T12:11:46.038Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/022_google-stitch-vs-figma-vibe-design-ia/hero.png?v=1774095240"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/022_google-stitch-vs-figma-vibe-design-ia/hero.png?v=1774095240"
 tags:
   - news
   - vibe-coding

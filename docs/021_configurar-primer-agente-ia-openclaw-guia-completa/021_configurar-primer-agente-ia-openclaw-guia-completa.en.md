@@ -6,7 +6,7 @@ description: "Step-by-step guide to setting up your own AI agent with OpenClaw. 
 author: "AIPaths Academy"
 publishedAt: "2026-02-27T14:48:58.140Z"
 updatedAt: "2026-03-02T12:50:00.000Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/021_configurar-primer-agente-ia-openclaw-guia-completa/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/021_configurar-primer-agente-ia-openclaw-guia-completa/hero.jpg"
 tags:
   - openclaw
   - ai-agents

@@ -17,7 +17,7 @@ publishedAt: "2025-11-04T00:00:00Z"
 updatedAt: "2025-11-04T00:00:00Z"
 
 # Cover image
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/006_supabase-vs-firebase-2025/hero.jpg"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/006_supabase-vs-firebase-2025/hero.jpg"
 
 # Tags (canonical lowercase English IDs)
 # IMPORTANT: Both EN/ES versions MUST have IDENTICAL tags
@@ -1416,7 +1416,7 @@ Después de eso, sabrás instintivamente cuál elegir para cada proyecto.
 
 ---
 
-**¿Construiste con Firebase y Supabase?** ¡Me encantaría escuchar tu experiencia! Deja un comentario abajo o [abre un issue en GitHub](https://github.com/openclaw-io/aipaths-academy-content/issues).
+**¿Construiste con Firebase y Supabase?** ¡Me encantaría escuchar tu experiencia! Deja un comentario abajo o [abre un issue en GitHub](https://github.com/aipaths/aipaths-academy-content/issues).
 
 **¿Aún no puedes decidir?** ¡Hazme una pregunta específica sobre tu caso de uso y te daré mi recomendación honesta!
 

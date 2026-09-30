@@ -6,7 +6,7 @@ description: "En febrero de 2025, Andrej Karpathy —cofundador de OpenAI y ex-l
 author: "AIPaths Academy"
 publishedAt: "2026-03-14T12:07:57.584Z"
 updatedAt: "2026-03-14T12:07:57.584Z"
-coverImage: "https://raw.githubusercontent.com/openclaw-io/aipaths-academy-content/main/public/images/blogs/019_vibe-coding-context-engineering-agentic-engineering/hero.png"
+coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/019_vibe-coding-context-engineering-agentic-engineering/hero.png"
 tags:
   - ai-agents
   - vibe-coding
