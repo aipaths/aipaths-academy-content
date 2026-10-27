@@ -3,6 +3,7 @@ content_id: blogs-bezos-project-prometheus
 locale: en
 title: "Jeff Bezos Returns as CEO: Launching Project Prometheus, a $6.2B AI Startup for the Physical Economy"
 description: Amazon founder Jeff Bezos makes his return to operational leadership as co-CEO of Project Prometheus, a new AI venture focused on engineering and manufacturing with $6.2 billion in funding.
+published: false
 author: AIPaths Academy
 publishedAt: 2025-11-19T10:00:00Z
 updatedAt: 2025-11-19T10:00:00Z

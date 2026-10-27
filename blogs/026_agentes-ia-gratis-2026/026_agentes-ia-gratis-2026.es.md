@@ -3,6 +3,7 @@ content_id: "blogs-agentes-ia-gratis-2026"
 locale: "es"
 title: "Agentes de IA Gratis en 2026: Las Mejores Opciones para Empezar Sin Pagar"
 description: "Comparativa por tipos de agentes de IA gratis en 2026: chats, agentes que usan tu computadora, capas operativas y frameworks para técnicos."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-24T10:00:00Z"
 updatedAt: "2026-04-25T14:00:00Z"

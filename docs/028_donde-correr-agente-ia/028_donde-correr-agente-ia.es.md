@@ -5,7 +5,7 @@ title: "Dónde Correr Tu Agente de IA: La Guía de Decisión Definitiva"
 description: "Antes de elegir herramientas, antes de diseñar prompts, antes de conectar APIs — hay una decisión que va a condicionar todo lo que viene después: dónde va a cor"
 author: "AIPaths Academy"
 publishedAt: "2026-03-23T12:09:03.524Z"
-updatedAt: "2026-03-23T12:09:03.524Z"
+updatedAt: "2026-10-27T12:00:00.000Z"
 coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/028_donde-correr-agente-ia/hero.jpg"
 tags:
   - ai-agents
@@ -113,10 +113,48 @@ Es más caro que un VPS pelado por los mismos recursos, pero te ahorrás todo el
 
 **Limitación:** Tenés menos control sobre el entorno. Algunas plataformas tienen restricciones de memoria, tiempo de ejecución, o acceso a disco que pueden complicar ciertos agentes.
 
-> 👉 **📘 ¿Querés más detalle sobre VPS?** Tenemos una guía dedicada a elegir, configurar, y asegurar tu VPS para agentes de IA — con comparativas de proveedores, benchmarks, y setup paso a paso. 
+> 👉 **📘 ¿Querés más detalle sobre VPS?** En la siguiente sección comparamos los 5 proveedores que mejor funcionan para OpenClaw, con precios reales y las reglas de seguridad que no podés saltarte.
 
 ### Tabla comparativa: Tipos de VPS
 
+
+## Qué VPS elegir para OpenClaw: los 5 proveedores que valen la pena
+
+Si fuiste por VPS económico, la pregunta siguiente es cuál. Esta comparativa sale de probar y de lo que reporta la comunidad de self-hosting — precios reales, specs y facilidad de deploy, sin relleno.
+
+### Qué le pide OpenClaw a un servidor
+
+OpenClaw corre como un daemon de Node.js que mantiene conexiones persistentes con tus canales (WhatsApp, Telegram, Discord) y ejecuta herramientas en tiempo real. Es un proceso *always-on*. Eso se traduce en: CPU estable (no burst), RAM constante (el proceso base usa ~500MB; 2GB es el mínimo funcional, 4GB es cómodo si usás browser automation), SSD rápido, red estable para los WebSockets y **nada de GPU** — los modelos corren en la nube del proveedor de API.
+
+> 💡 Si vas con 1–2 GB de RAM, agregá swap (2GB mínimo). Sin swap, browser automation puede tirar el proceso por OOM.
+
+### Los cinco, en una tabla
+
+| Proveedor | Plan recomendado | Precio aprox. | Deploy | Ideal para |
+|-----------|------------------|---------------|--------|------------|
+| **Hetzner** 🥇 | CX23 — 2 vCPU, 4GB RAM, 40GB NVMe (o CAX11 ARM, mismo precio) | ~€4.79/mes, facturación por hora | Manual (Node + systemd), guía oficial de OpenClaw | Mejor precio/rendimiento si sabés Linux. El pick de la comunidad. Sin ubicaciones en LATAM. |
+| **Contabo** 🥈 | Cloud VPS 10 — 4 vCPU, 8GB RAM, 75GB NVMe | ~$4.50/mes (contrato 12 meses) | One-click OpenClaw con Docker | Mucha RAM barata para varios agentes. Provisioning lento, sin facturación por hora. |
+| **DigitalOcean** 🥉 | Droplet 2 vCPU, 2GB RAM | $6–12/mes, por hora | 1-Click App en el Marketplace | Principiantes: mejor UX y documentación, $200 de crédito inicial. Caro por spec. |
+| **Vultr** | VX1 desde $3.50/mes o Cloud Compute $6/mes | $3.50–12/mes, por hora | Manual | LATAM: Miami, São Paulo y Ciudad de México. Mejor single-core (importa para Node). |
+| **Hostinger** | KVM 2 — 2 vCPU, 8GB RAM, 100GB NVMe | ~$5.99/mes (planes de 12–24 meses) | Templates Docker con OpenClaw, panel hPanel | Panel visual y datacenter en Brasil. Renovación más cara. 10% off para la comunidad: [hostinger.com/AIPATHS](https://hostinger.com/AIPATHS) |
+
+**Mención especial: Oracle Cloud Free Tier.** Hasta 4 OCPUs ARM, 24GB de RAM y 200GB gratis para siempre, y OpenClaw tiene guía oficial. Los caveats son serios: el signup es una lotería, ARM rompe algunos binarios, Oracle puede reclamar instancias idle y no hay soporte. Para experimentar, excelente. Para producción, pagá uno de los cinco.
+
+### Seguridad: lo que tenés que hacer antes de instalar
+
+OpenClaw tiene acceso completo a tu servidor. En Reddit hay varios reportes de gente que lo expuso a internet y fue comprometida en horas. Reglas no negociables:
+
+1. **Nunca expongas el puerto 18789.** El gateway escucha solo en `127.0.0.1:18789` por defecto; no lo cambies.
+2. **Acceso remoto por Tailscale o túnel SSH**: `ssh -L 18789:localhost:18789 user@tu-vps`.
+3. **Firewall (UFW)** solo con 22, 80 y 443, y `ufw limit 22/tcp` contra fuerza bruta.
+4. **SSH solo con llave**: deshabilitá contraseña y login de root.
+5. **Usuario non-root dedicado** para correr OpenClaw.
+
+### Costos ocultos
+
+Backups automáticos: Hetzner y DigitalOcean cobran ~20% extra; Contabo incluye snapshots. Tráfico: Hetzner incluye 20TB, Contabo es ilimitado, DigitalOcean y Vultr cobran $0.01/GB excedente. Y el costo real no es el VPS: son las APIs de modelos, que pueden ir de $20 a $100+/mes según volumen. Elegir un VPS barato te deja presupuesto para eso.
+
+**Decisión rápida:** mejor precio por spec y sabés Linux → Hetzner. Mucha RAM y one-click → Contabo. Nunca manejaste un servidor → DigitalOcean. Estás en LATAM → Vultr o Hostinger. No querés gastar nada → Oracle Free Tier.
 
 ## Decisión bonus: ¿Modelos locales o API?
 
@@ -128,6 +166,41 @@ Esta no es una decisión de infraestructura en sí, pero cambia completamente qu
 
 **Nuestra recomendación:** Empezá con APIs. Son más potentes, más fáciles de usar, y el costo por request es bajo. Los modelos locales son un complemento interesante para tareas específicas (procesamiento de datos sensibles, reducir costos en tareas repetitivas), no un reemplazo de los modelos frontier.
 
+
+## Modelos locales vs API: cómo decidir sin complicarte
+
+La decisión bonus merece un poco más de profundidad, porque es la que más gente resuelve por ideología en vez de por caso de uso.
+
+**Con API**, el proveedor administra la inteligencia y vos consumís el servicio: necesitás una cuenta, una key, una forma de hacer la llamada, prompts claros, control básico de errores y costos, y una política sobre qué datos pueden salir de tu sistema. Es el camino más corto para prototipos, agentes en validación y cualquier tarea que exija razonamiento fuerte, contexto largo, visión o herramientas nativas.
+
+**Con un modelo local** (un modelo abierto corriendo con Ollama, llama.cpp, LM Studio o vLLM en tu máquina o en un VPS con GPU), vos administrás la ejecución: hardware con RAM/VRAM suficiente, runtime, compatibilidad, rendimiento, monitoreo, actualizaciones y un fallback para cuando el modelo no da la talla. Ganás control sobre dónde viven los datos, pero "local" no significa ni gratis ni mejor.
+
+### Cuándo conviene cada uno
+
+Empezá con API si tu prioridad es validar rápido: un MVP, un agente para clientes, una automatización cuyo volumen todavía no conocés. La regla: **si todavía no sabés qué tareas va a hacer tu agente todos los días, empezá con API.**
+
+Considerá local cuando ya tenés una razón concreta: los datos no deberían salir de tu entorno, el agente tiene que funcionar offline o en red privada, tenés muchas tareas simples y repetitivas, el costo por volumen empieza a pesar, o querés reducir la dependencia de un proveedor. Un agente interno que clasifica miles de tickets por día no necesita el modelo más caro del mercado; un agente que analiza contratos confidenciales quizás no pueda mandarlos a nadie aunque la API lo haga mejor. En ese punto, local deja de ser una optimización técnica y pasa a ser una decisión de arquitectura.
+
+### El camino inteligente suele ser híbrido
+
+Un agente real tiene pasos distintos, y no todos necesitan la misma inteligencia:
+
+- local para tareas frecuentes, simples o sensibles (clasificar, extraer campos, resumir corto, rutear);
+- API para tareas complejas, ambiguas o de mayor valor;
+- reglas de routing para decidir cuándo usar cada modelo;
+- logs para medir costo, latencia y calidad por tarea.
+
+Ejemplo de soporte: un modelo local clasifica el mensaje (ventas, soporte, facturación, spam) y extrae datos básicos; si el caso es simple genera un borrador; si es delicado, una API fuerte redacta la respuesta final; el agente registra qué modelo usó y si la respuesta fue aceptada. Ejemplo con documentos privados: un modelo local filtra y anonimiza, la API razona sobre la versión sanitizada, y el resultado vuelve al entorno interno.
+
+### Para empezar
+
+1. Definí la tarea exacta ("clasificar leads entrantes", no "un agente con IA"). La tarea define el modelo.
+2. Validá el flujo completo con API.
+3. Separá lo repetitivo (candidato a local) de lo ambiguo o de alto riesgo (se queda en API).
+4. Definí desde el día uno qué datos pueden salir y cuáles no.
+5. Diseñá para cambiar de modelo: una capa simple para llamar modelos y guardar métricas, sin pegar la lógica a un proveedor.
+
+Errores típicos: elegir local demasiado pronto y perder semanas en infraestructura antes de validar; asumir que la API va a ser barata para siempre sin medir uso por tarea; confundir privacidad con ubicación (correr local no sirve si guardás logs inseguros o das permisos excesivos); y usar un solo modelo para todo. La pregunta madura no es "¿local o API?" sino **qué modelo conviene para esta tarea, con estos datos, este riesgo y esta etapa del proyecto.**
 
 ## Tu camino de decisión: el resumen
 
@@ -197,8 +270,6 @@ Lo más importante: no dejes que esta decisión te frene. Un agente corriendo en
 **¿Querés aprender a montar tu propio sistema de agentes de IA desde cero? **[**Anotate en la lista de espera del curso de OpenClaw**](https://www.aipaths.academy/es/openclaw-course?ref=guide)** — te avisamos cuando abra.**
 
 ## Contenido relacionado
-
-- 📘 [**Mejor VPS para OpenClaw en 2026: Guía Comparativa**](https://www.aipaths.academy/es/docs/030_mejor-vps-openclaw) — Si elegiste VPS, acá comparamos los top 5 proveedores
 
 - 📘 [**Cómo Optimizar los Costos de Tu Agente de IA**](https://www.aipaths.academy/es/docs/027_optimizar-costos-agente-ia) — Elegiste dónde correrlo; ahora optimizá cuánto gastás en API
 

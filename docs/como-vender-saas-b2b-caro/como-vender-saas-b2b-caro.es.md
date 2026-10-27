@@ -3,6 +3,7 @@ content_id: "docs-como-vender-saas-b2b-caro"
 locale: "es"
 title: "Cómo vender un SaaS B2B caro: de usuarios a clientes que pagan $249–$799/mes"
 description: "Guía práctica para founders: cómo vender un SaaS B2B de $249 a $799/mes con outbound específico, demos, ROI, pilotos pagados y contratos anuales."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-05-01T12:08:36.522Z"
 updatedAt: "2026-05-01T12:08:36.522Z"

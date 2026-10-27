@@ -3,6 +3,7 @@ content_id: "docs-clientes-agentes-ia-automatizacion"
 locale: "es"
 title: "Cómo encontrar clientes para agentes de IA y automatizaciones"
 description: "Guía práctica para encontrar empresas que sí necesitan agentes de IA y automatizaciones: señales de compra, nichos, mensajes, canales y guiones de prospección."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-05-04T19:08:03.038Z"
 updatedAt: "2026-05-04T19:08:03.038Z"

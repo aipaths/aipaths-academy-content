@@ -3,6 +3,7 @@ content_id: "docs-seo-para-llms-chatgpt-perplexity-claude"
 locale: "es"
 title: "SEO para LLMs: Cómo Aparecer en ChatGPT, Perplexity y Claude"
 description: "Guía completa de GEO (Generative Engine Optimization): cómo optimizar tu contenido para aparecer citado en ChatGPT, Perplexity, Claude y Google AI Overviews."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-02-25T12:01:04.342Z"
 updatedAt: "2026-02-25T12:01:04.342Z"

@@ -3,6 +3,7 @@ content_id: "blogs-cursor-composer-2-modelo-codigo-barato"
 locale: "en"
 title: "Cursor Composer 2: The Model That Rivals Claude Opus at 10x Less"
 description: "Cursor launched Composer 2, its own code-specialized AI model. It matches Claude Opus 4.6 on coding benchmarks at a tenth of the price. What this means for AI agent costs."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-03-20T16:07:37.049Z"
 updatedAt: "2026-03-20T16:07:37.049Z"

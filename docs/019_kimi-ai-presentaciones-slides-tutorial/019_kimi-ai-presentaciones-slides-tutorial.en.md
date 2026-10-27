@@ -3,6 +3,7 @@ content_id: "docs-kimi-ai-presentaciones-slides-tutorial"
 locale: "en"
 title: "How to Create Professional Presentations with Kimi AI (Free)"
 description: "Step-by-step tutorial to create professional presentations with Kimi AI for free. Effective prompts, comparison with Gamma and Canva AI, and tips for better results."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-02-22T18:15:58.954Z"
 updatedAt: "2026-03-10T18:25:00.000Z"

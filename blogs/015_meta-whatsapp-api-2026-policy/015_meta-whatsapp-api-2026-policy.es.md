@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "API de WhatsApp Business: Cambios de Politica de Meta en 2026"
 description: "Meta prohibe chatbots de IA de proposito general en WhatsApp, enfrenta investigaciones antimonopolio en UE, Italia y Brasil, mas cambios de precios."
+published: false
 
 # Author
 author: "AIPaths Academy"

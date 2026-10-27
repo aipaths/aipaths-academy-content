@@ -3,6 +3,7 @@ content_id: "blogs-openai-sam-altman-tumbler-ridge-alerta-policial"
 locale: "es"
 title: "El caso Tumbler Ridge: la pregunta que toda empresa con agentes de IA tiene que responder"
 description: "Sam Altman pidió disculpas porque OpenAI no alertó a la policía sobre una cuenta vinculada al atacante de Tumbler Ridge. Qué significa para la gobernanza de agentes de IA."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-29T19:00:00.000Z"
 updatedAt: "2026-04-29T19:00:00.000Z"

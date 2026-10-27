@@ -14,7 +14,7 @@ author: "AIPaths Academy"
 
 # Publication dates
 publishedAt: "2026-01-15T10:00:00Z"
-updatedAt: "2026-01-15T10:00:00Z"
+updatedAt: "2026-10-27T12:00:00.000Z"
 
 # Cover image
 coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/docs/017_meta-api-whatsapp/hero.jpg"
@@ -224,6 +224,45 @@ Meta asigna calificaciones de calidad (Alta/Media/Baja) basadas en:
 | Bots de trading de criptomonedas | Restringido | Regiones limitadas, reglas estrictas |
 | Promociones de alcohol | Restringido | Con restricción de edad, cumplimiento regional |
 
+## Cambios de política de Meta en 2026: prohibición de chatbots de IA, antimonopolio y precios
+
+Si vas a construir sobre la API en 2026, necesitas entender tres movimientos de Meta que cambian qué puedes hacer y cuánto te cuesta.
+
+### Prohibición de chatbots de IA de propósito general
+
+Meta cambió los términos de la API de WhatsApp Business para prohibir asistentes de IA abiertos, tipo ChatGPT. Aplica a nuevos usuarios desde el 15 de octubre de 2025 y a todos los existentes desde el **15 de enero de 2026**. Afectados: OpenAI (ChatGPT en WhatsApp), Perplexity, Luzia, Poke y cualquier IA que ofrezca conversación abierta tipo asistente. Siguen permitidos los bots de negocio: soporte, seguimiento de pedidos, reservas, FAQ y ventas con flujos estructurados.
+
+Las razones declaradas y las evidentes: las conversaciones abiertas generaban volúmenes masivos de mensajes, los bots de IA no encajaban en las categorías de facturación por plantilla, y la prohibición despeja el camino para Meta AI como único asistente general de la plataforma.
+
+### Investigaciones antimonopolio
+
+| Región | Estado | Acción |
+|--------|--------|--------|
+| **Unión Europea** | Investigación formal abierta (nov 2025) | Evalúa si Meta incumplió reglas de competencia. Multa potencial: hasta 10% de ingresos globales |
+| **Italia** | Suspensión ordenada (24 dic 2025) | La AGCM consideró que la conducta "parece constituir un abuso". Meta informó a los proveedores de IA que pueden seguir operando en Italia |
+| **Brasil** | Suspensión ordenada + investigación (13 ene 2026) | CADE calificó la restricción de "desproporcionada" |
+
+Meta calificó la decisión italiana de "fundamentalmente errónea" —argumenta que la API no es una ruta al mercado para empresas de IA; las tiendas de apps y los sitios web lo son— y planea apelar.
+
+### Nuevo modelo de precios (desde el 1 de enero de 2026)
+
+| Cambio | Detalle |
+|--------|---------|
+| Unidad de facturación | Por mensaje, no por conversación de 24 horas |
+| Precio según ubicación | Se cobra por el **país del destinatario**, no del remitente |
+| Monedas | 16 monedas soportadas para fin de 2026; facturación local en India (ene 2026) y Brasil (H2 2026) |
+| Tarifas regionales | India: marketing sube ~10%. Francia y Egipto: marketing baja 28–40%. Norteamérica: utilidad y autenticación bajan |
+
+Qué es gratis: las conversaciones de servicio iniciadas por el usuario (desde noviembre de 2024) y las plantillas de utilidad dentro de la ventana de 24 horas (desde julio de 2025). Marketing y autenticación se cobran siempre, con descuentos escalonados por volumen para utilidad y autenticación.
+
+### Qué significa para tu proyecto
+
+- **Bot de negocio (soporte, ventas, reservas):** estás bien; sigue completamente permitido.
+- **Asistente de IA de propósito general:** tienes que pivotar a flujos estructurados o salir de la plataforma, salvo en Italia u otra jurisdicción que bloquee la aplicación.
+- **Costos:** presupuesta por mensaje. Si envías marketing de alto volumen a India pagarás más; a Francia o Egipto, menos.
+
+Fuentes: [TechCrunch sobre la prohibición](https://techcrunch.com/2025/10/18/whatssapp-changes-its-terms-to-bar-general-purpose-chatbots-from-its-platform/), [la orden de Italia](https://techcrunch.com/2025/12/24/italy-tells-meta-to-suspend-its-policy-that-bans-rival-ai-chatbots-from-whatsapp/), [la orden de Brasil](https://techcrunch.com/2026/01/13/brazil-orders-meta-to-suspend-policy-banning-third-party-ai-chatbots-from-whatsapp/) y [la investigación de la Comisión Europea](https://ec.europa.eu/commission/presscorner/detail/en/ip_25_2896).
+
 ## Puntos Clave
 
 1. **Comienza con Cloud API**: On-Premises está descontinuado; Cloud API es gratis y más fácil
@@ -249,5 +288,4 @@ Meta asigna calificaciones de calidad (Alta/Media/Baja) basadas en:
 ## Contenido relacionado
 
 - 📘 [**Guía Completa de n8n para Principiantes**](https://www.aipaths.academy/es/docs/014_n8n-complete-beginners-guide) — Automatizá WhatsApp con n8n: la combinación más popular
-- 📝 [**API de WhatsApp Business: Cambios de Política 2026**](https://www.aipaths.academy/es/blog/015_meta-whatsapp-api-2026-policy) — Los cambios regulatorios que afectan cómo usás la API
 - 📘 [**Agentes de IA en 2026: Guía Completa**](https://www.aipaths.academy/es/docs/022_agentes-ia-guia-completa-2026) — Conectá agentes de IA a WhatsApp para atención automatizada

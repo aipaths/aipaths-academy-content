@@ -3,6 +3,7 @@ content_id: "blogs-perplexity-personal-computer-vs-openclaw"
 locale: "en"
 title: "Perplexity Launches \"Personal Computer\": The First Direct OpenClaw Competitor"
 description: "Perplexity just launched something that confirms what we've been saying: the future of AI isn't in the cloud — it's on your desk. It's called \"Personal Computer,\" and it's exactly what it sounds like: software that turns a Mac Mini into a personal AI agent running 24/7."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-03-22T12:18:41.890Z"
 updatedAt: "2026-03-22T12:18:41.890Z"

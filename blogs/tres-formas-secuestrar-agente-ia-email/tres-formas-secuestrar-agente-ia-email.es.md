@@ -3,6 +3,7 @@ content_id: "blogs-tres-formas-secuestrar-agente-ia-email"
 locale: "es"
 title: "3 formas en que pueden secuestrar tu agente de IA con un email"
 description: "Si tu agente de IA lee correos y puede responder, clasificar leads o ejecutar acciones, un email malicioso puede manipularlo. Estas son las 3 vías más peligrosas y cómo reducir el riesgo."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-05-15T12:00:00.000Z"
 updatedAt: "2026-05-15T12:00:00.000Z"

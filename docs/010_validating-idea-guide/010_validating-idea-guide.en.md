@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "Validating Your Idea Before Building: A Framework-Driven Guide"
 description: "Learn proven validation frameworks to test your business idea before investing time and money. From smoke tests to pre-sales, discover what separates successful launches from expensive failures."
+published: false
 
 # Author
 author: "AIPaths Academy"

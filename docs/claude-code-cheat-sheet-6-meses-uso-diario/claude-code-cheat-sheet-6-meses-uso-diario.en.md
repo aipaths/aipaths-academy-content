@@ -5,7 +5,7 @@ title: "Claude Code: a practical guide after 6 months of daily use"
 description: "A practical Claude Code guide after months of daily use: workflow, context, skills, hooks, security, and prompts to move faster without losing control."
 author: "AIPaths Academy"
 publishedAt: "2026-05-01T19:03:59.322Z"
-updatedAt: "2026-05-01T19:03:59.322Z"
+updatedAt: "2026-10-27T12:00:00.000Z"
 tags:
   - ai-agents
   - claude-code
@@ -215,6 +215,49 @@ For security:
 ```text
 Run a security review focused on secrets, excessive permissions, injection, dangerous commands, and data exposure. Do not change code yet: first list findings and severity.
 ```
+
+## Terminal commands that change the daily flow
+
+The sections above are the method. These commands are the mechanics that make it fast when you live in the terminal. You do not need to memorize all of them: each one removes a specific kind of friction.
+
+**`!` to work from real evidence.** A command prefixed with `!` runs from the session and its output stays in context, so you can ask about the result without copying anything:
+
+```bash
+! npm test -- pricing.test.ts
+! git diff --stat
+! rg "createCheckoutSession" src
+```
+
+Instead of asking Claude to guess why something fails, you hand it the output. Two rules: filter anything verbose (`! npm test 2>&1 | tail -n 80`, `! git diff -- src/billing | sed -n '1,220p'`) and never put secrets, `.env` files or giant dumps into the conversation. For long-running processes (dev servers, big suites), `Ctrl+B` sends them to the background with their own ID and retrievable output.
+
+**`/statusline` to see what you usually forget.** A persistent bar with model, directory, Git branch, context percentage and session cost prevents avoidable mistakes: working on the wrong branch, missing that the context is almost full, using an expensive model for a trivial task.
+
+```text
+/statusline show model name, current directory, git branch, context percentage and session cost
+```
+
+**`/usage` and `/context` before blaming the model.** When a session starts answering worse, the context is almost always full of noise. `/context` shows what dominates it (terminal output, irrelevant files, old exploration). From there, the simple rule:
+
+- Same task, conversation too long → `/compact keep the goal, decisions, modified files, tests and pending work`.
+- New topic → `/clear`.
+- Recent wrong turn → `/rewind`.
+
+**`/add-dir` for multi-repo work, with limits.** If a bug crosses frontend and API, `/add-dir ../api` (or `claude --add-dir ../api ../workers` at startup) avoids opening two conversations. But every extra directory widens what Claude can explore and edit, and that repo's `.claude/` configuration is not discovered automatically. Use it with a concrete intent ("trace the flow between @src/components/CheckoutForm.tsx and the checkout endpoint in ../api, explore first without editing"), never as `/add-dir ..` plus "fix whatever you find".
+
+**`/btw` for side questions.** A quick question that sees the current context but does not enter the history and has no tool access: perfect for "what did this helper do?" without polluting the main session. If you need to investigate something new, branch the conversation or open a separate session.
+
+**`/diff`, `/code-review` and `/simplify` to close.** The work is not done when it "seems to work". A reasonable ending:
+
+```text
+/diff
+Summarize the diff in 5 bullets: goal, files touched, risks, tests run and pending work.
+/code-review
+/simplify
+! npm run typecheck
+! npm test -- checkout.test.ts
+```
+
+Keep the three apart: `/simplify` removes unnecessary complexity, `/code-review` hunts for real bugs, and tests validate behavior. A change can get more elegant and still be broken. If something fails, root cause before editing.
 
 ## Conclusion: more structure, less faith
 

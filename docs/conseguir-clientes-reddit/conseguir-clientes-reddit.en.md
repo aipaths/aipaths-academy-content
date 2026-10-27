@@ -3,6 +3,7 @@ content_id: "docs-conseguir-clientes-reddit"
 locale: "en"
 title: "How to Get Clients on Reddit Without Spamming"
 description: "A practical guide to using Reddit as a channel for research, trust, and client acquisition without falling into self-promotion or damaging your reputation."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-30T19:04:15.743Z"
 updatedAt: "2026-04-30T19:04:15.743Z"

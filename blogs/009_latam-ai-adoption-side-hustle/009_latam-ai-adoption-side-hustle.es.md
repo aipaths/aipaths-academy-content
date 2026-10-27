@@ -3,6 +3,7 @@ content_id: blogs-latam-ai-adoption-side-hustle
 locale: es
 title: "El 43% de las Empresas Latinoamericanas Están Usando IA: Cómo Puedes Aprovechar Esta Oportunidad de $300B"
 description: Descubre cómo la masiva ola de adopción de IA en Latinoamérica está creando oportunidades sin precedentes para desarrolladores y emprendedores en solitario en 2025.
+published: false
 author: AIPaths Academy
 publishedAt: 2025-11-20T10:00:00Z
 updatedAt: 2025-11-20T10:00:00Z

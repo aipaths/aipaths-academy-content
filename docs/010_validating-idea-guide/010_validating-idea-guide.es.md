@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Validar Tu Idea Antes de Construir: Una Guía Basada en Frameworks"
 description: "Aprende frameworks probados de validación para probar tu idea de negocio antes de invertir tiempo y dinero. Desde smoke tests hasta pre-ventas, descubre qué separa los lanzamientos exitosos de los fracasos costosos."
+published: false
 
 # Author
 author: "AIPaths Academy"

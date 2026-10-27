@@ -5,7 +5,7 @@ title: "What Is a Harness Engineer? The Guide to Building Reliable AI Agents"
 description: "A practical guide to what a harness engineer is, why harness engineering matters for reliable AI agents, and how it connects to OpenClaw, Hermes Agent, Claude Code, and Codex."
 author: "AIPaths Academy"
 publishedAt: "2026-07-29T12:00:00.000Z"
-updatedAt: "2026-07-29T12:00:00.000Z"
+updatedAt: "2026-10-27T12:00:00.000Z"
 tags:
   - ai-agents
   - harness-engineering
@@ -302,6 +302,39 @@ If the output is generic, you need better context.
 
 That is the loop: every failure improves the harness.
 
+## Coding harnesses: your first reliable workflow
+
+Everything above applies to any agent. But the place where the harness becomes most concrete — and easiest to practice — is work with coding agents: Claude Code, Codex, Cursor or whichever you use. There, the difference between a prompt and a harness shows up in the diff.
+
+A coding harness answers questions that usually stay implicit inside the team: where can the agent work? Which documentation must it read before editing? Which command proves the change works? Which files must it not touch without permission? When is local validation enough and when is human review required? How should the work be summarized so someone else can review it quickly? When those answers live only in your head, the agent improvises. When they are built into the workflow, the system pushes it toward the right behavior.
+
+It can be as simple as a short `AGENTS.md` plus a `validate` command, or as formal as a versioned workflow with planning, implementation, tests, review and PR phases. Sophistication matters less than repeatability. The signal that you need one is not "I want the most advanced tool" but repeated failure: the agent skips tests, expands scope, touches sensitive files, declares victory too early or leaves a diff that is hard to review.
+
+### The four pieces of a first harness
+
+1. **A short map of the project.** `AGENTS.md` tells the agent how to run the project, which commands are official, which rules it cannot break and what "done" means. If it grows too long, link to deeper docs.
+2. **Planning separated from implementation.** For medium tasks the agent investigates and proposes first; it touches files only after the scope is approved. This single change prevents many unnecessarily large solutions.
+3. **Deterministic validations.** If a machine can check it, do not leave it to the model's opinion: lint, typecheck, tests, build and link checks as real gates, not soft suggestions.
+4. **Human review where risk matters.** Not every line, but every decision that affects architecture, data, security, public APIs, costs or publishing.
+
+### Calibrating control
+
+A harness that is too weak lets the agent improvise; one that is too rigid makes it slow and uncomfortable. The rule is proportionality: small tasks get more autonomy (read context, minimal change, targeted validation, summary); medium tasks require an upfront plan and full validations; sensitive tasks need human approval before editing or merging. Do not use the same process for fixing a typo and migrating authentication.
+
+If several agents work in parallel on the same repo, branches or worktrees per task stop being a luxury and become basic hygiene. Without isolation the cost appears later: conflicts, dirty local state and results that are hard to reproduce.
+
+Tools like Archon (Cole Medin) treat this as workflow infrastructure: Docker made environments repeatable, GitHub Actions made pipelines repeatable, Archon tries to make agent work repeatable by separating the phases AI decides from the ones the system enforces. You do not need it to start, but the pattern holds: the more autonomy you give the agent, the more explicit the harness must be.
+
+### A checklist to audit your workflow
+
+- Does the agent know the official validation command?
+- Do large tasks require a plan before editing?
+- Are there clear rules for sensitive files, dependencies and public APIs?
+- Do repeated errors become checks or documentation?
+- Is there human review before high-risk changes?
+
+If most answers are "no", you do not need another model yet. You need to harden the process around the model. Start with one repeated task (small bugs, documentation PRs, tests for existing modules), run the flow several times, adjust it after each failure and, once it works, turn it into a template.
+
 ## Conclusion
 
 A harness engineer is the person who stops treating AI like a magic box and starts designing it as part of a work system.
@@ -325,7 +358,6 @@ You have one part of your business working with more leverage.
 - [AI Agents in 2026: Complete Guide](https://www.aipaths.academy/en/docs/022_agentes-ia-guia-completa-2026)
 - [Complete guide to configure your first agent with OpenClaw](https://www.aipaths.academy/en/docs/021_configurar-primer-agente-ia-openclaw-guia-completa)
 - [Agentic Engineering: the complete framework](https://www.aipaths.academy/en/docs/024_agentic-engineering-framework)
-- [AI coding harnesses](https://www.aipaths.academy/en/docs/032_arneses-codificacion-ia-agentes-que-entregan)
 - [Security for AI agents](https://www.aipaths.academy/en/docs/023_seguridad-agentes-ia-guia-practica)
 - [How to optimize AI agent costs](https://www.aipaths.academy/en/docs/027_optimizar-costos-agente-ia)
 

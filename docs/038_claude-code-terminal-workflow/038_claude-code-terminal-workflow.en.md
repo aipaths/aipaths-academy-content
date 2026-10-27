@@ -3,6 +3,7 @@ content_id: "docs-claude-code-terminal-workflow"
 locale: "en"
 title: "How to Use Claude Code from the Terminal: A Workflow to Move Faster Without Losing Context"
 description: "A practical guide for terminal users who want to use Claude Code with less friction: shell commands, @ file references, statusline, context hygiene, multi-repo work, /btw, and review before closing changes."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-06-04T14:30:02.838Z"
 updatedAt: "2026-06-04T14:30:02.838Z"

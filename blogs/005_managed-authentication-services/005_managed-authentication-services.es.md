@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Probablemente Estás Perdiendo Tiempo Construyendo Autenticación (Esto es lo que Hacen los Desarrolladores Inteligentes)"
 description: "Deja de construir autenticación desde cero. Descubre por qué los servicios gestionados son más rápidos, seguros y rentables."
+published: false
 
 # Author
 author: "AIPaths Academy"

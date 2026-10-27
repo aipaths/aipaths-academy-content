@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "Prompt Engineering for Claude: Best Practices"
 description: "Master the art of prompt engineering with Claude. Learn proven techniques to get better, more consistent, and more reliable responses from AI."
+published: false
 
 # Author
 author: "AIPaths Academy"

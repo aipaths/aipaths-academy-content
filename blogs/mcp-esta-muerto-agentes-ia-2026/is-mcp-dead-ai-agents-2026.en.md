@@ -4,6 +4,7 @@ locale: "en"
 slug: "is-mcp-dead-ai-agents-2026"
 title: "Is MCP dead? The practical decision for building AI agents in 2026"
 description: "MCP is not dead, but using it by default can make agents harder to maintain. Learn when to use MCP, CLIs, APIs, n8n, or skills without adding fragility."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-07-01T12:00:00.000Z"
 updatedAt: "2026-07-01T12:00:00.000Z"

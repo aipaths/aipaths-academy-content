@@ -3,6 +3,7 @@ content_id: "blogs-opus-47-simplebench-regression-agentes-ia"
 locale: "en"
 title: "Opus 4.7 Dropped on SimpleBench: What It Really Means for Your AI Agents"
 description: "A viral benchmark showed Claude Opus 4.7 scoring below Opus 4.6 on SimpleBench. That does not mean the model is worse. It means AI models must be evaluated by use case."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-25T17:30:07.782Z"
 updatedAt: "2026-04-25T17:49:51.000Z"

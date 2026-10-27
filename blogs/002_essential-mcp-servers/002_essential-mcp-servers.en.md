@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "5 Essential MCP Servers Every Claude Developer Needs"
 description: "Discover the most useful Model Context Protocol (MCP) servers that will supercharge your Claude workflows and save hours of development time."
+published: false
 
 # Author
 author: "AIPaths Academy"

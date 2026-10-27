@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "Building Your First MCP Server: A Complete Guide"
 description: "Learn how to build Model Context Protocol (MCP) servers to extend Claude's capabilities with custom tools and data sources."
+published: false
 
 # Author
 author: "AIPaths Academy"

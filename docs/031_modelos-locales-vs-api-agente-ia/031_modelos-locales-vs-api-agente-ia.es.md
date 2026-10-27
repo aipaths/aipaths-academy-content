@@ -3,6 +3,7 @@ content_id: "docs-modelos-locales-vs-api-agente-ia"
 locale: "es"
 title: "Modelos Locales vs API: Cuándo Conviene Cada Uno para Tu Agente de IA"
 description: "Guía práctica para entender qué es un modelo por API, qué es un modelo local y cómo elegir por dónde empezar al construir un agente de IA."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-25T19:11:26.516Z"
 updatedAt: "2026-04-25T19:11:26.516Z"

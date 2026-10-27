@@ -3,6 +3,7 @@ content_id: "blogs-claude-mythos-preview-project-glasswing"
 locale: "en"
 title: "Claude Mythos Preview: The Model So Powerful Anthropic Won't Release It"
 description: "Anthropic announced Claude Mythos, a model capable of autonomously discovering and chaining zero-day exploits. Instead of releasing it, they created Project Glasswing with Microsoft, Apple, and Amazon to defend critical infrastructure."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-10T12:00:00.000Z"
 updatedAt: "2026-04-10T12:00:00.000Z"

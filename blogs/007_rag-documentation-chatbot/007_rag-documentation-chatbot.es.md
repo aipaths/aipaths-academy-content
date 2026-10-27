@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Construye un Chatbot de Documentación con Claude y RAG"
 description: "Construye un chatbot de documentación con Claude y RAG. Tutorial completo con código, arquitectura y mejores prácticas."
+published: false
 
 # Author
 author: "AIPaths Academy"

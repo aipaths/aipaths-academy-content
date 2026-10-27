@@ -3,6 +3,7 @@ content_id: "blogs-claude-code-leak-codigo-fuente-agentes-ia"
 locale: "es"
 title: "Se Filtró el Código de Claude Code: 512,000 Líneas que Revelan el Futuro de los Agentes de IA"
 description: "El 31 de marzo de 2026, alguien en Anthropic cometió un error humano que expuso los secretos mejor guardados de la industria de agentes de IA. Un archivo .map ("
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-02T11:13:53.843Z"
 updatedAt: "2026-04-02T11:13:53.843Z"

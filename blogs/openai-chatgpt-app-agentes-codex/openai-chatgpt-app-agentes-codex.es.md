@@ -3,6 +3,7 @@ content_id: "blogs-openai-chatgpt-app-agentes-codex"
 locale: "es"
 title: "OpenAI no está matando ChatGPT: lo está convirtiendo en una app de agentes"
 description: "OpenAI prepara una reestructuración de ChatGPT hacia agentes, Codex y apps integradas. Qué significa para emprendedores que usan IA para automatizar trabajo real."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-08-03T19:00:00.000Z"
 updatedAt: "2026-08-03T19:00:00.000Z"

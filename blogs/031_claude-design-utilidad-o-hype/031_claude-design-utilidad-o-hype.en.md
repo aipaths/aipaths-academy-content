@@ -3,6 +3,7 @@ content_id: "blogs-claude-design-utilidad-o-hype"
 locale: "en"
 title: "Claude Design: useful tool or pure hype?"
 description: "Claude Design promises to turn ideas into prototypes, slides, and visuals in minutes. Here is where it creates real value, where it falls short, and how to use it without burning through tokens."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-05-07T12:00:00.000Z"
 updatedAt: "2026-05-07T12:00:00.000Z"

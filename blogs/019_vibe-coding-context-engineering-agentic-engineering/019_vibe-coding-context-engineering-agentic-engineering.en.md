@@ -3,6 +3,7 @@ content_id: "blogs-vibe-coding-context-engineering-agentic-engineering"
 locale: "en"
 title: "From Vibe Coding to Context Engineering to Agentic Engineering: The Evolution Nobody Saw Coming"
 description: "In 14 months, the way we program with AI went through three distinct eras: vibe coding, context engineering, and agentic engineering. The complete story of how each term changed the rules of the game."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-03-14T12:07:58.960Z"
 updatedAt: "2026-03-14T12:07:58.960Z"

@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Molt Bot: Guia del Agente de IA Autonomo"
 description: "Entiende que es Molt Bot, como funciona, los riesgos involucrados y como usarlo de forma segura como desarrollador."
+published: false
 
 # Author
 author: "AIPaths Academy"

@@ -3,6 +3,7 @@ content_id: "blogs-openai-pwc-cfo-agentes-ia-finanzas"
 locale: "en"
 title: "OpenAI and PwC want to redesign the CFO office with AI agents"
 description: "OpenAI and PwC are building AI agents for corporate finance. What this means for CFOs, consultants, founders, and teams that want to automate operations with control."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-06-03T12:00:00+00:00"
 updatedAt: "2026-06-03T12:00:00+00:00"

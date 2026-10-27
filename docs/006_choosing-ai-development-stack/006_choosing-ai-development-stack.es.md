@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Cómo Elegir tu Stack de Desarrollo de IA en 2025"
 description: "Guía completa para elegir tu stack de desarrollo de IA en 2025. Compara frameworks, bases de datos y herramientas clave para tu proyecto."
+published: false
 
 # Author
 author: "AIPaths Academy"

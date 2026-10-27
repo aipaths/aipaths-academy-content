@@ -3,6 +3,7 @@ content_id: "blogs-construir-sistemas-ia-programar"
 locale: "es"
 title: "No es un gran momento para programar. Es un gran momento para construir sistemas con IA"
 description: "Programar con IA es más fácil que nunca, pero la ventaja real está en construir sistemas útiles. Cómo combinar agentes, criterio de negocio y comunidad técnica."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-06-15T12:00:00.000Z"
 updatedAt: "2026-06-15T12:00:00.000Z"

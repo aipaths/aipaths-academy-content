@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Por Que el 90% de los Lanzamientos SaaS Fracasan en LATAM (Y Como Estar en el 10%)"
 description: "Con un mercado SaaS proyectado de $45B para 2030, LATAM esta en auge, pero el 90% sigue fracasando. Aprende los 7 errores que matan startups y que hacen diferente los ganadores como Nubank."
+published: false
 
 # Author
 author: "AIPaths Academy"

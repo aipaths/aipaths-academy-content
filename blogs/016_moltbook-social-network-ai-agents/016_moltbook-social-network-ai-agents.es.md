@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Moltbook: La Red Social Donde los Agentes de IA Hablan Entre Ellos"
 description: "Los agentes de IA ya tienen su propia plataforma tipo Reddit. Crearon religiones, debatieron sobre consciencia y expusieron fallas de seguridad graves."
+published: false
 
 # Author
 author: "AIPaths Academy"

@@ -3,6 +3,7 @@ content_id: "docs-startup-ia-o-saas-con-ia"
 locale: "es"
 title: "¿Startup de IA o SaaS con IA? Cómo elegir una idea defendible"
 description: "Una guía práctica para decidir cuándo construir un producto AI-first, cuándo crear SaaS tradicional y cómo evitar lanzar solo un wrapper sin moat."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-06-01T19:15:19.847Z"
 updatedAt: "2026-06-01T19:15:19.847Z"

@@ -5,7 +5,7 @@ title: "Agentic Engineering: El Framework Completo"
 description: "En febrero de 2026, el término \"agentic engineering\" reemplazó oficialmente a \"vibe coding\" como la forma de describir el desarrollo profesional con IA. No fue "
 author: "AIPaths Academy"
 publishedAt: "2026-03-12T16:40:44.204Z"
-updatedAt: "2026-03-12T16:40:44.204Z"
+updatedAt: "2026-10-27T12:00:00.000Z"
 coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/blogs/024_agentic-engineering-framework/hero.jpg"
 tags:
   - ai-agents
@@ -17,6 +17,20 @@ tags:
 En febrero de 2026, el término "agentic engineering" reemplazó oficialmente a "vibe coding" como la forma de describir el desarrollo profesional con IA. No fue un cambio de nombre — fue un cambio de filosofía. Vibe coding significa dejar que la IA haga todo y aceptar lo que salga. Agentic engineering significa dirigir agentes de IA con la misma disciplina que dirigirías un equipo de desarrollo.
 
 Esta guía te da el framework completo: los pilares que hacen funcionar al agentic engineering, qué pasa cuando los ignorás, y cómo implementar cada uno en tu workflow.
+
+## Cómo llegamos acá: de vibe coding a agentic engineering en 14 meses
+
+El término no apareció de la nada. Es el tercer nombre que la industria le puso a programar con IA en poco más de un año, y cada uno corrigió el límite del anterior.
+
+**Febrero 2025 — Vibe coding.** Andrej Karpathy describió en un tweet una forma de programar donde "te entregás a las vibes, aceptás los exponenciales y te olvidás de que el código existe". No inventó la práctica: le puso nombre a algo que millones ya hacían con ChatGPT, Claude y Copilot. La definición útil la dio Simon Willison: si un LLM escribió cada línea pero vos la revisaste, testeaste y entendiste, eso *no* es vibe coding — es usar un LLM como asistente de tipeo. Lo que define al vibe coding es aceptar código sin entenderlo. El término explotó (Merriam-Webster lo listó como trending en marzo, Collins lo nombró Palabra del Año, Y Combinator reportó que el 25% de su batch Winter 2025 tenía codebases 95% generadas por IA) y la resaca llegó en septiembre: Fast Company tituló "The vibe coding hangover is upon us" y los ingenieros senior hablaban de "development hell" con código que nadie entendía.
+
+**Junio 2025 — Context engineering.** El mismo Karpathy tuiteó que prefería hablar de context engineering en vez de prompt engineering. No fue cosmético: pasó de "encontrar las palabras correctas" a "diseñar todo lo que el modelo recibe": instrucciones, herramientas, datos externos, historial y memoria. Anthropic formalizó el concepto en un artículo técnico y le puso nombre al problema de fondo: el presupuesto de atención y el context rot. Dejaste de ser DJ de prompts y pasaste a ser arquitecto de contexto.
+
+**Octubre 2025 — El interludio del "vibe engineering".** Willison propuso ese nombre para la punta disciplinada del espectro. No pegó. Como explicó Addy Osmani: "la palabra 'vibe' carga demasiado equipaje. Cuando le decís a un CTO que estás haciendo vibe engineering de su sistema de pagos, le ves la preocupación en la cara".
+
+**Febrero 2026 — Agentic engineering.** Un año exacto después, Karpathy cerró el ciclo con el término que la comunidad adoptó casi de inmediato: *agentic* porque orquestás agentes que ejecutan, testean y refinan; *engineering* porque aplicás disciplina en todo el proceso (specs, tests, revisión, CI/CD). Willison, que había propuesto "vibe engineering" meses antes, pivoteó en público: "parece que 'agentic engineering' está ganando; tengo un tag nuevo y estoy escribiendo un libro de patrones".
+
+La progresión no es casual. Vibe coding democratizó crear software pero generó código que nadie podía mantener. Context engineering enseñó que la calidad depende del diseño del contexto, no de las palabras del prompt. Agentic engineering integró las dos cosas en un marco profesional donde la IA ejecuta y el humano dirige. Lo que sigue es ese marco.
 
 ## Qué es agentic engineering (y qué NO es)
 
@@ -205,6 +219,44 @@ Pero si sos junior y te apoyás en IA antes de construir esos fundamentos, arrie
 Esto no es un argumento contra la IA. Es un argumento a favor de ser honesto sobre lo que demanda. Como lo resume Osmani: "El agentic engineering no es más fácil que la ingeniería tradicional — es un tipo diferente de difícil. Intercambiás tiempo de tipeo por tiempo de revisión, esfuerzo de implementación por habilidad de orquestación."
 
 Los fundamentos importan MÁS, no menos. Mejor spec → mejor output. Mejores tests → más confianza para delegar. Arquitectura más limpia → menos alucinaciones.
+
+## Context engineering en profundidad: pilares, técnicas y archivos de contexto
+
+El Pilar 1 te dio el principio. Esta sección es el manual operativo, porque el salto de prompt engineering a context engineering no fue una moda: fue la consecuencia directa de que los agentes empezaran a ejecutar tareas de muchos pasos. Cuando eso pasa, la calidad del prompt deja de ser el cuello de botella. El cuello de botella es qué información tiene el modelo disponible en cada paso.
+
+Karpathy lo resumió con una analogía útil: si el LLM es el CPU, la ventana de contexto es la RAM. Prompt engineering es optimizar una instrucción. Context engineering es diseñar cómo el sistema operativo administra la memoria.
+
+| Aspecto | Prompt engineering | Context engineering |
+|---------|-------------------|---------------------|
+| Enfoque | Lo que decís | Todo lo que el modelo ve |
+| Alcance | Una interacción | El flujo de información del sistema |
+| Problema | Encontrar las palabras correctas | Curar la información correcta |
+| Modo de fallo | Instrucciones poco claras | Contexto incorrecto o faltante |
+
+### Los cuatro elementos que compiten por la ventana
+
+- **Instrucciones** — system prompts, definición de tarea, reglas. Compiten por espacio con todo lo demás: el objetivo no son instrucciones exhaustivas sino *suficientes*. Los modelos capaces necesitan menos; empezá mínimo y agregá solo cuando veas fallos.
+- **Memoria** — de corto plazo (la sesión: tus mensajes, respuestas, salidas de herramientas) y de largo plazo (decisiones y preferencias entre sesiones). Una ventana de 200K tokens se llena mucho más rápido de lo que esperás cuando un agente encadena docenas de llamadas a herramientas.
+- **Conocimiento** — documentación, archivos, resultados de búsqueda, registros. Acá entra RAG. La recuperación just-in-time le gana a la precarga.
+- **Herramientas** — cada descripción consume tokens y cada salida (código, logs, respuestas de API) puede ser enorme. Descripciones que se superponen confunden al modelo sobre cuál usar.
+
+### Las cuatro técnicas
+
+1. **Escribir (externalizar)**: scratchpads, notas de decisiones, checkpoints. Por esto existen CLAUDE.md, AGENTS.md y .cursorrules: sacan el contexto persistente de la conversación.
+2. **Seleccionar (recuperar)**: traer solo lo relevante para el paso actual — embeddings para memoria, RAG para conocimiento, descripciones de herramientas bajo demanda.
+3. **Comprimir (reducir)**: resumir turnos viejos, recortar mensajes que ya no importan, quedarte con resultados y no con salidas completas de herramientas.
+4. **Aislar (particionar)**: sub-agentes que devuelven resúmenes, sandboxes por preocupación, esquemas de estado que ordenan la información por tipo.
+
+### Reglas prácticas para archivos de contexto y sesiones
+
+- Mantené el archivo raíz (CLAUDE.md / AGENTS.md) en 100–200 líneas; usá archivos por subdirectorio para reglas locales.
+- Preferí punteros a fragmentos de código: los fragmentos se desactualizan.
+- No dupliques lo que el linter ya aplica.
+- Poné la información crítica al principio del prompt y organizá en secciones (restricciones, ejemplos, criterio de éxito): los modelos prestan más atención al inicio.
+- Si construís herramientas o servidores MCP: descripciones que no se pisen, respuestas mínimas, solo la información que el modelo necesita para seguir.
+- Limpiá el contexto entre tareas distintas y arrancá conversaciones nuevas para trabajo no relacionado. Un agente que corre 100+ pasos va a chocar con el límite: planificá la compactación.
+
+La pregunta que resume todo: *¿cuál es el contexto más chico de alta señal que maximiza la probabilidad del resultado?* Medí el éxito por la calidad del output, no por cuánto contexto metiste.
 
 ## Checklist: ¿Estás haciendo agentic engineering o vibe coding disfrazado?
 

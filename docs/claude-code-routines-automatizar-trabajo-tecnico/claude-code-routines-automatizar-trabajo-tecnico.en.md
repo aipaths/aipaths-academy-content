@@ -3,6 +3,7 @@ content_id: "docs-claude-code-routines-automatizar-trabajo-tecnico"
 locale: "en"
 title: "Claude Code Routines: how to automate technical work without turning your repo into a black box"
 description: "A practical guide to Claude Code Routines: when to use them, how to design safe prompts, and when routines are better than cron, CI, or a custom agent."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-05-07T19:04:04.683Z"
 updatedAt: "2026-05-07T19:04:04.683Z"

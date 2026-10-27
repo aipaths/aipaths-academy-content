@@ -3,6 +3,7 @@ content_id: "blogs-google-stitch-vs-figma-vibe-design-ia"
 locale: "es"
 title: "Google Stitch: La Herramienta Gratis de IA que Tiró las Acciones de Figma un 8.8%"
 description: "El 18 de marzo, Google actualizó Stitch — su herramienta de diseño con IA. Al día siguiente, las acciones de Figma cayeron un 8.8%. No por un escándalo, no por "
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-03-21T12:11:46.038Z"
 updatedAt: "2026-03-21T12:11:46.038Z"

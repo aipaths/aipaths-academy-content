@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Obsidian vs Notion: Por Qué los Desarrolladores Eligen Markdown"
 description: "Descubre por qué los desarrolladores están migrando de Notion a Obsidian. Texto plano, integración con git, archivos legibles por IA y propiedad total de tus datos."
+published: false
 
 # Author
 author: "AIPaths Academy"

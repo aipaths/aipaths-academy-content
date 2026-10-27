@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "n8n es Ahora una Plataforma AI-First: 75% de Usuarios Construyen Workflows de IA"
 description: "Como n8n se convirtio silenciosamente en la plataforma preferida para automatizacion con IA, con 75% de usuarios construyendo workflows de IA y una valoracion de $2.5B respaldada por NVIDIA."
+published: false
 
 # Autor
 author: "AIPaths Academy"

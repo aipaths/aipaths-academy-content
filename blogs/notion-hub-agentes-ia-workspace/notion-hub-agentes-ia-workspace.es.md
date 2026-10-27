@@ -3,6 +3,7 @@ content_id: "blogs-notion-hub-agentes-ia-workspace"
 locale: "es"
 title: "Notion quiere ser la oficina donde trabajan tus agentes de IA"
 description: "Notion quiere convertir su workspace en un hub para agentes de IA. Qué cambia con Workers, MCP, External Agents y cómo probarlo sin perder control."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-06-02T12:00:00.000Z"
 updatedAt: "2026-06-02T12:00:00.000Z"

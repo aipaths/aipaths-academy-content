@@ -3,6 +3,7 @@ content_id: "blogs-cursor-composer-2-modelo-codigo-barato"
 locale: "es"
 title: "Cursor Composer 2: El Modelo que Compite con Claude Opus a 10x Menos"
 description: "Cursor acaba de lanzar algo que cambia las reglas del juego: Composer 2, su propio modelo de IA para código. No un wrapper sobre Claude. No una integración de G"
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-03-20T16:07:36.087Z"
 updatedAt: "2026-03-20T16:07:36.087Z"

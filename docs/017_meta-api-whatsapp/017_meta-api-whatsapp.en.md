@@ -14,7 +14,7 @@ author: "AIPaths Academy"
 
 # Publication dates
 publishedAt: "2026-01-15T10:00:00Z"
-updatedAt: "2026-01-15T10:00:00Z"
+updatedAt: "2026-10-27T12:00:00.000Z"
 
 # Cover image
 coverImage: "https://raw.githubusercontent.com/aipaths/aipaths-academy-content/main/public/images/docs/017_meta-api-whatsapp/hero.jpg"
@@ -224,6 +224,45 @@ Meta assigns quality ratings (High/Medium/Low) based on:
 | Cryptocurrency trading bots | Restricted | Limited regions, strict rules |
 | Alcohol promotions | Restricted | Age-gated, region-specific compliance |
 
+## Meta's 2026 policy changes: AI chatbot ban, antitrust and pricing
+
+If you are building on the API in 2026, three moves by Meta change what you can do and what it costs.
+
+### General-purpose AI chatbot ban
+
+Meta changed the WhatsApp Business API terms to ban open-ended, ChatGPT-style AI assistants. It applied to new users from October 15, 2025 and to all existing users from **January 15, 2026**. Affected: OpenAI (ChatGPT on WhatsApp), Perplexity, Luzia, Poke and any AI offering open, assistant-style conversations. Still allowed: business bots — customer support, order tracking, bookings, FAQ and sales chatbots with structured flows.
+
+The stated and the obvious reasons: open-ended AI conversations generated massive message volumes, AI bots did not fit the template-based billing categories, and the ban clears the path for Meta AI as the platform's only general-purpose assistant.
+
+### Antitrust investigations
+
+| Region | Status | Action |
+|--------|--------|--------|
+| **European Union** | Formal investigation opened (Nov 2025) | Assessing whether Meta breached competition rules. Potential fine: up to 10% of global revenue |
+| **Italy** | Suspension ordered (Dec 24, 2025) | AGCM found the conduct "appears to constitute an abuse". Meta told AI providers they may keep operating in Italy |
+| **Brazil** | Suspension ordered + investigation (Jan 13, 2026) | CADE called the restriction "disproportionate" |
+
+Meta called Italy's decision "fundamentally flawed" — arguing the API is not a route to market for AI companies; app stores and websites are — and plans to appeal.
+
+### New pricing model (from January 1, 2026)
+
+| Change | Details |
+|--------|---------|
+| Billing unit | Per message, not per 24-hour conversation |
+| Location-based pricing | Charged by the **recipient's country**, not the sender's |
+| Currencies | 16 currencies supported by end of 2026; local billing in India (Jan 2026) and Brazil (H2 2026) |
+| Regional rates | India: marketing up ~10%. France and Egypt: marketing down 28-40%. North America: utility and authentication lowered |
+
+What is free: user-initiated service conversations (since November 2024) and utility templates inside the 24-hour window (since July 2025). Marketing and authentication templates are always charged, with tiered volume discounts for utility and authentication senders.
+
+### What it means for your project
+
+- **Business bot (support, sales, bookings):** you are fine; it remains fully allowed.
+- **General-purpose AI assistant:** pivot to structured flows or leave the platform, unless you operate in Italy or another jurisdiction blocking enforcement.
+- **Costs:** budget per message. High-volume marketing to India costs more; to France or Egypt, less.
+
+Sources: [TechCrunch on the ban](https://techcrunch.com/2025/10/18/whatssapp-changes-its-terms-to-bar-general-purpose-chatbots-from-its-platform/), [Italy's order](https://techcrunch.com/2025/12/24/italy-tells-meta-to-suspend-its-policy-that-bans-rival-ai-chatbots-from-whatsapp/), [Brazil's order](https://techcrunch.com/2026/01/13/brazil-orders-meta-to-suspend-policy-banning-third-party-ai-chatbots-from-whatsapp/) and [the European Commission investigation](https://ec.europa.eu/commission/presscorner/detail/en/ip_25_2896).
+
 ## Key Takeaways
 
 1. **Start with Cloud API**: On-Premises is deprecated; Cloud API is free and easier
@@ -249,5 +288,4 @@ Meta assigns quality ratings (High/Medium/Low) based on:
 ## Related content
 
 - 📘 [**n8n Complete Beginners Guide**](https://www.aipaths.academy/en/docs/014_n8n-complete-beginners-guide) — Automate WhatsApp with n8n: the most popular combo
-- 📝 [**WhatsApp Business API: 2026 Policy Changes**](https://www.aipaths.academy/en/blog/015_meta-whatsapp-api-2026-policy) — Regulatory changes affecting how you use the API
 - 📘 [**AI Agents in 2026: Complete Guide**](https://www.aipaths.academy/en/docs/022_agentes-ia-guia-completa-2026) — Connect AI agents to WhatsApp for automated support

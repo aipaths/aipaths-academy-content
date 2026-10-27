@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "n8n Complete Beginner's Guide: Free Workflow Automation Explained"
 description: "Learn n8n from scratch: what it is, core concepts, hosting options, and when to choose it over Zapier or Make."
+published: false
 
 # Author
 author: "AIPaths Academy"

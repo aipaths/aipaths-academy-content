@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Crea un Digest de Noticias IA Gratis con n8n, REST API y Cualquier CLI de IA"
 description: "Crea un flujo de trabajo automatizado de noticias de IA usando n8n local, REST API y cualquier CLI de IA (Claude Code, Cursor, Gemini) - completamente gratis con opciones de despliegue económicas."
+published: false
 
 # Author
 author: "AIPaths Academy"

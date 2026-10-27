@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "Claude's Context Window: A Complete Guide"
 description: "Learn how Claude's context window works, manage tokens effectively, and optimize costs for your AI applications."
+published: false
 
 # Author
 author: "AIPaths Academy"

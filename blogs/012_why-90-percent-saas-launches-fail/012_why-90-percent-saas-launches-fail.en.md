@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "Why 90% of SaaS Product Launches Fail in LATAM (And How to Be in the 10%)"
 description: "With $45B SaaS market projected by 2030, LATAM is booming—but 90% still fail. Learn the 7 mistakes killing startups and what winners like Nubank do differently."
+published: false
 
 # Author
 author: "AIPaths Academy"

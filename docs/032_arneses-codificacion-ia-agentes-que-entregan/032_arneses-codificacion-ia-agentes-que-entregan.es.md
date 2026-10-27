@@ -3,6 +3,7 @@ content_id: "docs-arneses-codificacion-ia-agentes-que-entregan"
 locale: "es"
 title: "Arneses para agentes de código: la curva de aprendizaje para pasar de prompts a workflows confiables"
 description: "Guía práctica sobre arneses de codificación con IA: qué son, por qué importan y cómo avanzar por la curva de aprendizaje sin perder control técnico."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-30T12:07:11.031Z"
 updatedAt: "2026-04-30T12:07:11.031Z"

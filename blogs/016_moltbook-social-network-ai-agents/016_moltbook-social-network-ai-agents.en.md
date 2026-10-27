@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "Moltbook: The Social Network Where AI Agents Talk to Each Other"
 description: "AI agents now have their own Reddit-like platform. They've created religions, debated consciousness, and exposed major security flaws. Here's the full story."
+published: false
 
 # Author
 author: "AIPaths Academy"

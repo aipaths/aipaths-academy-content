@@ -3,6 +3,7 @@ content_id: "blogs-perplexity-personal-computer-vs-openclaw"
 locale: "es"
 title: "Perplexity Lanza \"Personal Computer\": El Primer Competidor Directo de OpenClaw"
 description: "Perplexity acaba de lanzar algo que confirma lo que venimos diciendo: el futuro de la IA no está en la nube — está en tu escritorio. Se llama \"Personal Computer"
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-03-22T12:18:41.073Z"
 updatedAt: "2026-03-22T12:18:41.073Z"

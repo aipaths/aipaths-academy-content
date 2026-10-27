@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "10 Patrones de Prompts Que Cambiaron Mi Flujo de Trabajo con Claude"
 description: "Descubre patrones de prompts probados para Claude. Ejemplos reales de código de producción y sesiones de depuración diarias."
+published: false
 
 # Author
 author: "AIPaths Academy"

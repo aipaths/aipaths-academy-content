@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "Build a Documentation Chatbot with Claude and RAG"
 description: "Learn how to build a production-ready documentation chatbot using Claude AI and RAG. Complete tutorial with vector databases, embeddings, and deployment tips."
+published: false
 
 # Author
 author: "AIPaths Academy"

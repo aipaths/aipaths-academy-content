@@ -5,7 +5,7 @@ title: "Qué es un harness engineer: la guía para crear agentes de IA confiable
 description: "Guía práctica para entender qué es un harness engineer, por qué importa para crear agentes de IA útiles en negocios chicos y cómo se relaciona con OpenClaw, Hermes Agent, Claude Code y Codex."
 author: "AIPaths Academy"
 publishedAt: "2026-07-29T12:00:00.000Z"
-updatedAt: "2026-07-29T12:00:00.000Z"
+updatedAt: "2026-10-27T12:00:00.000Z"
 tags:
   - ai-agents
   - harness-engineering
@@ -302,6 +302,39 @@ Si el output es genérico, necesitás mejor contexto.
 
 Ese es el loop: cada fallo mejora el arnés.
 
+## Arneses para agentes de código: tu primer workflow confiable
+
+Todo lo anterior aplica a cualquier agente. Pero el lugar donde el arnés se vuelve más concreto —y más fácil de practicar— es el trabajo con agentes de código: Claude Code, Codex, Cursor o el que uses. Ahí la diferencia entre prompt y arnés se ve en el diff.
+
+Un arnés de codificación responde preguntas que normalmente quedan implícitas en el equipo: ¿dónde puede trabajar el agente? ¿Qué documentación tiene que leer antes de editar? ¿Qué comando demuestra que el cambio funciona? ¿Qué archivos no toca sin permiso? ¿Cuándo alcanza con validar localmente y cuándo hace falta revisión humana? ¿Cómo se resume el trabajo para que otro lo revise rápido? Cuando esas respuestas viven solo en tu cabeza, el agente improvisa. Cuando están en el workflow, el sistema lo empuja al comportamiento correcto.
+
+Puede ser tan simple como un `AGENTS.md` corto más un comando `validate`, o tan formal como un workflow versionado con fases de planificación, implementación, tests, revisión y PR. La sofisticación importa menos que la repetibilidad. La señal de que lo necesitás no es "quiero la herramienta más avanzada", sino errores repetidos: el agente se salta tests, cambia demasiado alcance, toca archivos sensibles, declara victoria antes de tiempo o deja un diff imposible de revisar.
+
+### Las cuatro piezas del primer arnés
+
+1. **Un mapa corto del proyecto.** `AGENTS.md` orienta al agente: cómo correr el proyecto, qué comandos son oficiales, qué reglas no puede romper y qué significa "terminado". Si crece demasiado, dejá links a documentación más profunda.
+2. **Plan separado de implementación.** Para tareas medianas, el agente primero investiga y propone; recién después de aprobar el alcance toca archivos. Este cambio solo evita muchas soluciones innecesariamente grandes.
+3. **Validaciones determinísticas.** Si una máquina puede comprobarlo, no lo dejes como opinión del modelo: lint, typecheck, tests, build y chequeo de links como gates reales, no como sugerencias.
+4. **Revisión humana donde el riesgo importa.** No cada línea, sí las decisiones que afectan arquitectura, datos, seguridad, APIs públicas, costos o publicación.
+
+### Calibrar el control
+
+Un arnés demasiado débil deja que el agente improvise; uno demasiado rígido lo vuelve lento e incómodo. La regla es proporcionalidad: para tareas chicas, más autonomía (leer contexto, cambio mínimo, validación puntual, resumen); para medianas, plan previo y validaciones completas; para sensibles, aprobación humana antes de editar o de mergear. No uses el mismo proceso para corregir un typo que para migrar autenticación.
+
+Si varios agentes trabajan en paralelo sobre el mismo repo, ramas o worktrees por tarea dejan de ser lujo y pasan a ser higiene básica. Sin aislamiento, el costo aparece después: conflictos, estado local sucio y resultados difíciles de reproducir.
+
+Herramientas como Archon (Cole Medin) tratan esto como infraestructura de workflow: Docker hizo repetible el entorno, GitHub Actions hizo repetible el pipeline, Archon intenta hacer repetible el trabajo con agentes, separando qué fases decide la IA y cuáles impone el sistema. No la necesitás para empezar, pero el patrón vale: cuanta más autonomía le das al agente, más explícito tiene que ser el arnés.
+
+### Checklist para auditar tu workflow
+
+- ¿El agente conoce el comando oficial de validación?
+- ¿Las tareas grandes requieren plan antes de editar?
+- ¿Hay reglas claras para archivos sensibles, dependencias y APIs públicas?
+- ¿Los errores repetidos se convierten en checks o documentación?
+- ¿Existe revisión humana antes de cambios de alto riesgo?
+
+Si la mayoría da "no", todavía no necesitás otro modelo. Necesitás endurecer el proceso alrededor del modelo. Empezá con una sola tarea repetida (bugs chicos, PRs de documentación, tests para módulos existentes), corré el flujo varias veces, ajustalo con cada falla y, cuando funcione, convertilo en plantilla.
+
 ## Conclusión
 
 Un harness engineer es la persona que deja de tratar la IA como una caja mágica y empieza a diseñarla como parte de un sistema de trabajo.
@@ -325,7 +358,6 @@ Tenés una parte de tu negocio funcionando con más leverage.
 - [Agentes de IA en 2026: guía completa](https://www.aipaths.academy/es/docs/022_agentes-ia-guia-completa-2026)
 - [Guía completa para configurar tu primer agente con OpenClaw](https://www.aipaths.academy/es/docs/021_configurar-primer-agente-ia-openclaw-guia-completa)
 - [Agentic Engineering: el framework completo](https://www.aipaths.academy/es/docs/024_agentic-engineering-framework)
-- [Arneses para agentes de código](https://www.aipaths.academy/es/docs/032_arneses-codificacion-ia-agentes-que-entregan)
 - [Seguridad para agentes de IA](https://www.aipaths.academy/es/docs/023_seguridad-agentes-ia-guia-practica)
 - [Optimizar costos de un agente de IA](https://www.aipaths.academy/es/docs/027_optimizar-costos-agente-ia)
 
