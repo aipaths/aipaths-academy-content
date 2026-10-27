@@ -3,6 +3,7 @@ content_id: "blogs-apple-ios-27-modelos-ia"
 locale: "es"
 title: "iOS 27 puede convertir el iPhone en un selector de modelos de IA"
 description: "Apple planea abrir Apple Intelligence a modelos de terceros en iOS 27. Qué significa para usuarios, developers y emprendedores que construyen con IA."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-05-15T19:00:00.000Z"
 updatedAt: "2026-05-15T19:00:00.000Z"

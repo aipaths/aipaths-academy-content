@@ -3,6 +3,7 @@ content_id: "blogs-stanford-reglas-agentes-ia-negocio"
 locale: "en"
 title: "Stanford Is Already Writing Rules for AI Agents. Here Is the Lesson for Your Business"
 description: "Stanford CS336 published rules for AI agents that help without solving student assignments. Learn what that means for governing agents in your business."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-08-03T12:00:00.000Z"
 updatedAt: "2026-08-03T12:00:00.000Z"

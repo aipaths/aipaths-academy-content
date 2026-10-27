@@ -3,6 +3,7 @@ content_id: "blogs-mcp-esta-muerto-agentes-ia-2026"
 locale: "es"
 title: "¿MCP está muerto? La decisión práctica para construir agentes de IA en 2026"
 description: "MCP no está muerto, pero usarlo por defecto puede complicar tus agentes. Cuándo conviene MCP, CLI, APIs, n8n o skills para automatizar sin fragilidad."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-07-01T12:00:00.000Z"
 updatedAt: "2026-07-01T12:00:00.000Z"

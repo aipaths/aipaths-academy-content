@@ -3,6 +3,7 @@ content_id: "blogs-anthropic-pentagono-ia-etica-seguridad-2026"
 locale: "es"
 title: "Anthropic vs el Pentágono: La Pelea por la IA que Definirá la Próxima Década"
 description: "El viernes 27 de febrero de 2026, el presidente Trump ordenó a todas las agencias del gobierno de Estados Unidos cesar inmediatamente el uso de tecnología de An"
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-03-04T09:42:11.738Z"
 updatedAt: "2026-03-04T09:42:11.738Z"

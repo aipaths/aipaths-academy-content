@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "How to Pick Your AI Development Stack in 2025"
 description: "A comprehensive decision framework for choosing the right AI models, development tools, frameworks, databases, and deployment platforms for your AI application in 2025."
+published: false
 
 # Author
 author: "AIPaths Academy"

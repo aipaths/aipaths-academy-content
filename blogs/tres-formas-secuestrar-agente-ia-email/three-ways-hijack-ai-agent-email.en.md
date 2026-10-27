@@ -3,6 +3,7 @@ content_id: "blogs-tres-formas-secuestrar-agente-ia-email"
 locale: "en"
 title: "3 ways someone can hijack your AI agent through an email"
 description: "If your AI agent reads emails and can reply, classify leads, or trigger actions, a malicious email can manipulate it. These are the 3 most dangerous paths and how to reduce the risk."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-05-15T12:00:00.000Z"
 updatedAt: "2026-05-15T12:00:00.000Z"

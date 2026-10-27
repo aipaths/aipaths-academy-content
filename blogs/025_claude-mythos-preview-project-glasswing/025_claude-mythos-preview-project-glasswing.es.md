@@ -3,6 +3,7 @@ content_id: "blogs-claude-mythos-preview-project-glasswing"
 locale: "es"
 title: "Claude Mythos Preview: El Modelo Tan Poderoso Que Anthropic No Quiere Lanzar"
 description: "Anthropic anunció Claude Mythos, un modelo capaz de descubrir y encadenar zero-days de forma autónoma. En vez de lanzarlo, crearon Project Glasswing con Microsoft, Apple y Amazon para defender infraestructura crítica."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-10T12:00:00.000Z"
 updatedAt: "2026-04-10T12:00:00.000Z"

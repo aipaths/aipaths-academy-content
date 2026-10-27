@@ -3,6 +3,7 @@ content_id: "blogs-propaganda-ia-pentagono-america-latina"
 locale: "en"
 title: "La Tilde and the Pentagon: AI Propaganda Is Already Targeting Latin America"
 description: "The La Tilde case shows how AI lowers the cost of building influence media. What The Intercept reported, and what teams using AI agents and automated content should learn from it."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-06-15T19:00:00.000Z"
 updatedAt: "2026-06-15T19:00:00.000Z"

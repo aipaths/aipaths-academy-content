@@ -3,6 +3,7 @@ content_id: "blogs-nvidia-nemoclaw-openclaw-vera-cpu-agentes-ia"
 locale: "en"
 title: "NVIDIA Bets on OpenClaw: NemoClaw, Vera CPU and the Future of AI Agents"
 description: "NVIDIA launched NemoClaw for OpenClaw at GTC 2026: Nemotron models + secure sandbox in a single command. Jensen Huang calls OpenClaw the operating system for personal AI."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-03-17T16:24:15.729Z"
 updatedAt: "2026-03-18T16:00:00.000Z"

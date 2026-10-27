@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Guía Completa de RAG: 4 Métodos para Conectar tus Agentes con Datos"
 description: "Aprende cuándo usar filtros, SQL, contexto completo o vectores para que tus agentes de IA respondan con precisión."
+published: false
 
 # Author
 author: "AIPaths Academy"

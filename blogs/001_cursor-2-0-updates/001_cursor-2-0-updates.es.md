@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Cursor 2.0: La Revolución del Código IA Que Cambia Todo"
 description: "Cursor 2.0 cambia las reglas del código con IA. Descubre las nuevas características y cómo transforman el desarrollo diario."
+published: false
 
 # Author
 author: "AIPaths Academy"

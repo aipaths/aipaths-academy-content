@@ -3,6 +3,7 @@ content_id: "docs-decidir-idea-vale-la-pena-antes-de-programar"
 locale: "en"
 title: "How to Decide If an Idea Is Worth Building Before You Start Coding"
 description: "Learn a practical filter for validating product ideas before you start coding: specific users, observable pain, urgency, demand signals, distribution, and a one-week MVP."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-06-01T12:12:34.494Z"
 updatedAt: "2026-06-01T12:12:34.494Z"

@@ -3,6 +3,7 @@ content_id: "blogs-construir-sistemas-ia-programar"
 locale: "en"
 title: "It is not a great time to code. It is a great time to build AI systems"
 description: "Coding with AI is easier than ever, but the real advantage is building useful systems. Learn how to combine agents, business judgment, and technical communities."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-06-15T12:00:00.000Z"
 updatedAt: "2026-06-15T12:00:00.000Z"

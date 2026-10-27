@@ -3,6 +3,7 @@ content_id: "blogs-anthropic-pentagono-ia-etica-seguridad-2026"
 locale: "en"
 title: "Anthropic vs the Pentagon: The AI Fight That Will Define the Next Decade"
 description: "Trump blacklisted Anthropic for refusing mass surveillance and autonomous weapons. OpenAI raised $110B the same day. Claude hit #1 on the App Store. What it means for AI entrepreneurs."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-03-04T09:42:12.713Z"
 updatedAt: "2026-03-10T18:00:00.000Z"

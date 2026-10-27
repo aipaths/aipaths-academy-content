@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "5 Servidores MCP Esenciales que Todo Desarrollador de Claude Necesita"
 description: "Descubre los servidores Model Context Protocol (MCP) más útiles que potenciarán tus flujos de trabajo con Claude y te ahorrarán horas de desarrollo."
+published: false
 
 # Author
 author: "AIPaths Academy"

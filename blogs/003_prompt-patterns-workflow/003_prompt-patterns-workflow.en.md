@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "10 Prompt Patterns That Changed My Claude Workflow"
 description: "Discover proven prompt patterns for Claude. Real examples from production code, debugging sessions, and daily development workflows."
+published: false
 
 # Author
 author: "AIPaths Academy"

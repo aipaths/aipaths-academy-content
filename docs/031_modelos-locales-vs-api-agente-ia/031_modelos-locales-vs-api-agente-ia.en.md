@@ -3,6 +3,7 @@ content_id: "docs-modelos-locales-vs-api-agente-ia"
 locale: "en"
 title: "Local Models vs API: When Each One Makes Sense for Your AI Agent"
 description: "A practical guide to understanding API models, local models, what each option requires, and how to choose the right starting point for an AI agent."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-25T19:11:26.516Z"
 updatedAt: "2026-04-25T19:11:26.516Z"

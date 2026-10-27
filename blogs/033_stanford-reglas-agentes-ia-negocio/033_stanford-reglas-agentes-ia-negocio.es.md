@@ -3,6 +3,7 @@ content_id: "blogs-stanford-reglas-agentes-ia-negocio"
 locale: "es"
 title: "Stanford ya esta escribiendo reglas para agentes de IA: la leccion para tu negocio"
 description: "Stanford CS336 publico reglas para que los agentes de IA ayuden sin resolver tareas. Aprende que significa para gobernar agentes en tu negocio."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-08-03T12:00:00.000Z"
 updatedAt: "2026-08-03T12:00:00.000Z"

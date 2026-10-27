@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Ventana de Contexto de Claude: Guía Completa"
 description: "Aprende cómo funciona la ventana de contexto de Claude, gestiona tokens efectivamente y optimiza costos para tus aplicaciones de IA."
+published: false
 
 # Author
 author: "AIPaths Academy"

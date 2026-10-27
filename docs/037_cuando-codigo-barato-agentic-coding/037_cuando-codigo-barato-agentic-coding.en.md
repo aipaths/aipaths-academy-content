@@ -3,6 +3,7 @@ content_id: "docs-cuando-codigo-barato-agentic-coding"
 locale: "en"
 title: "When Code Gets Cheap: What to Do in the Age of Agentic Coding"
 description: "If AI can write code fast, the advantage is no longer writing more code. It is designing better systems, tests, criteria, and maintenance workflows."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-06-04T12:07:35.395Z"
 updatedAt: "2026-06-04T12:07:35.395Z"

@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "Complete RAG Guide: 4 Methods to Connect Your Agents with Data"
 description: "Learn when to use filters, SQL, full context, or vectors so your AI agents respond accurately."
+published: false
 
 # Author
 author: "AIPaths Academy"

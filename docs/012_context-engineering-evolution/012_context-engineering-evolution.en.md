@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "Context Engineering: The Evolution You Need to Understand"
 description: "Learn why context engineering is replacing prompt engineering as the key skill for AI-assisted development in 2025."
+published: false
 
 # Author
 author: "AIPaths Academy"

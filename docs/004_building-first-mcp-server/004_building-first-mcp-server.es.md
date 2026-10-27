@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Construyendo Tu Primer Servidor MCP: Guía Completa"
 description: "Aprende cómo construir servidores Model Context Protocol (MCP) para extender las capacidades de Claude con herramientas y fuentes de datos personalizadas."
+published: false
 
 # Author
 author: "AIPaths Academy"

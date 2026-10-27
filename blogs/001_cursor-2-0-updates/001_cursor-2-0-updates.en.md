@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "Cursor 2.0: The AI Coding Revolution That Changes Everything"
 description: "Cursor 2.0 introduces Composer, a proprietary 4x faster AI model, plus multi-agent architecture with up to 8 parallel agents. Here's what it means for developers."
+published: false
 
 # Author
 author: "AIPaths Academy"

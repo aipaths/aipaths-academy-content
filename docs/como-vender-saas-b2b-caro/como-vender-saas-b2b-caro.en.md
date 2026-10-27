@@ -3,6 +3,7 @@ content_id: "docs-como-vender-saas-b2b-caro"
 locale: "en"
 title: "How to Sell Expensive B2B SaaS: From Users to Customers Paying $249–$799/month"
 description: "A practical guide for founders selling $249–$799/month B2B SaaS: narrow ICP, specific outbound, demos, ROI, paid pilots, annual contracts, and proof."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-05-01T12:08:36.522Z"
 updatedAt: "2026-05-01T12:08:36.522Z"

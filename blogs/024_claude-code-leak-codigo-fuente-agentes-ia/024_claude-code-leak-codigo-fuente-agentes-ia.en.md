@@ -3,6 +3,7 @@ content_id: "blogs-claude-code-leak-codigo-fuente-agentes-ia"
 locale: "en"
 title: "Claude Code Source Code Leaked: 512,000 Lines Reveal the Future of AI Agents"
 description: "A leaked sourcemap file exposed Claude Code's entire codebase — revealing hidden features like KAIROS (a 24/7 autonomous agent), BUDDY (an AI pet system), anti-distillation defenses, and an architecture strikingly similar to what OpenClaw already offers as open source."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-02T11:13:55.048Z"
 updatedAt: "2026-04-02T11:13:55.048Z"

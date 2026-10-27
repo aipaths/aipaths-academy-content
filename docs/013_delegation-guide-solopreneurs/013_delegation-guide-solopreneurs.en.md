@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "The Complete Delegation Guide for Solopreneurs: How to Scale by Hiring Contractors"
 description: "Learn how to effectively delegate development work to contractors. Covers finding reliable developers, quality control systems, communication frameworks, and pricing strategies for solopreneurs."
+published: false
 
 # Author
 author: "AIPaths Academy"

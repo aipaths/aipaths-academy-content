@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Guia Completa de n8n para Principiantes: Automatizacion de Flujos Gratuita"
 description: "Aprende n8n desde cero: que es, conceptos clave, opciones de hosting y cuando elegirlo sobre Zapier o Make."
+published: false
 
 # Autor
 author: "AIPaths Academy"

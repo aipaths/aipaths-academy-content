@@ -3,6 +3,7 @@ content_id: "docs-conseguir-clientes-reddit"
 locale: "es"
 title: "Cómo conseguir clientes en Reddit sin hacer spam"
 description: "Guía práctica para usar Reddit como canal de investigación, confianza y adquisición de clientes sin caer en autopromoción ni quemar tu reputación."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-30T19:04:15.743Z"
 updatedAt: "2026-04-30T19:04:15.743Z"

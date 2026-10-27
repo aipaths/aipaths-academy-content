@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "SuperClaude Framework"
 description: "Learn about SuperClaude, a meta-programming framework that enhances Claude Code with specialized agents and workflow automation"
+published: false
 
 # Author
 author: "AIPaths Academy"

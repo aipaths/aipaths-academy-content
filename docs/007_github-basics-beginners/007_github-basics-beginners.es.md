@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Fundamentos de GitHub: Guía para Principiantes sobre Control de Versiones"
 description: "Aprende Git y GitHub desde cero. Guía completa cubriendo repositorios, commits, ramas y flujos de trabajo colaborativos."
+published: false
 
 # Author
 author: "AIPaths Academy"

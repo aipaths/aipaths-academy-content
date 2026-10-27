@@ -3,6 +3,7 @@ content_id: "docs-decidir-idea-vale-la-pena-antes-de-programar"
 locale: "es"
 title: "Cómo decidir si una idea vale la pena antes de empezar a programar"
 description: "Aprende a validar si una idea vale la pena antes de programar: dolor real, demanda, usuarios, canal inicial y MVP de una semana."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-06-01T12:12:34.494Z"
 updatedAt: "2026-06-01T12:12:34.494Z"

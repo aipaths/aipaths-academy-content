@@ -3,6 +3,7 @@ content_id: "blogs-openai-codex-compite-claude-code"
 locale: "en"
 title: "OpenAI upgrades Codex to compete: the battle for coding agents is no longer just about code"
 description: "OpenAI has rebuilt Codex with desktop control, parallel agents, an integrated browser, memory, and plugins. What it means for entrepreneurs, technical teams, and the race against Claude Code."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-29T00:00:00.000Z"
 updatedAt: "2026-04-29T00:00:00.000Z"

@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Context Engineering: La Evolución que Necesitas Entender"
 description: "Descubre por qué context engineering está reemplazando a prompt engineering como la habilidad clave para el desarrollo asistido por IA en 2025."
+published: false
 
 # Author
 author: "AIPaths Academy"

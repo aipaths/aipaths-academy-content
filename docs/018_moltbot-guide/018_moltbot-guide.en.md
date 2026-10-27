@@ -9,6 +9,7 @@ locale: "en"
 title: "Molt Bot: The Autonomous AI Agent Guide"
 
 description: "Understand what Molt Bot is, how it works, the risks involved, and how to use it safely as a developer."
+published: false
 
 # Author
 author: "AIPaths Academy"

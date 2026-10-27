@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "Build a Free AI News Digest with n8n, REST API & Any AI CLI"
 description: "Create an automated daily AI news workflow using n8n locally, REST API, and any AI CLI (Claude Code, Cursor, Gemini) - completely free with low-cost deployment options."
+published: false
 
 # Author
 author: "AIPaths Academy"

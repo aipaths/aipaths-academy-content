@@ -3,6 +3,7 @@ content_id: "blogs-claude-mythos-metr-time-horizon"
 locale: "en"
 title: "Claude Mythos broke the METR chart: what it means for AI agents"
 description: "Claude Mythos pushed beyond METR's reliable benchmark range. What the time horizon metric measures, why it matters, and what entrepreneurs and technical teams should do next."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-06-02T19:00:00+00:00"
 updatedAt: "2026-06-02T19:00:00+00:00"

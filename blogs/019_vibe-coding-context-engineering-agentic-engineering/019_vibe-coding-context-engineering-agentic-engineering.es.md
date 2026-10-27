@@ -3,6 +3,7 @@ content_id: "blogs-vibe-coding-context-engineering-agentic-engineering"
 locale: "es"
 title: "Vibe Coding - Context Engineering - Agentic Engineering"
 description: "En febrero de 2025, Andrej Karpathy —cofundador de OpenAI y ex-líder de IA en Tesla— publicó un tweet que cambió el vocabulario de la industria tech. Describió "
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-03-14T12:07:57.584Z"
 updatedAt: "2026-03-14T12:07:57.584Z"

@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "La Guia Completa de Delegacion para Solopreneurs: Como Escalar Contratando Freelancers"
 description: "Aprende a delegar trabajo de desarrollo a contratistas de forma efectiva. Incluye como encontrar desarrolladores confiables, sistemas de control de calidad, frameworks de comunicacion y estrategias de precios."
+published: false
 
 # Author
 author: "AIPaths Academy"

@@ -3,6 +3,7 @@ content_id: "docs-cuando-codigo-barato-agentic-coding"
 locale: "es"
 title: "Cuando el código se vuelve barato: qué hacer en la era del agentic coding"
 description: "Si la IA ya puede escribir código rápido, la ventaja no está en programar más, sino en diseñar mejores sistemas, pruebas, criterios y procesos de mantenimiento."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-06-04T12:07:35.395Z"
 updatedAt: "2026-06-04T12:07:35.395Z"

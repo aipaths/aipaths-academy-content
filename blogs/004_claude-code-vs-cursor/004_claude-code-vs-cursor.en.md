@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "Claude Code vs Cursor: Which AI Coding Assistant Should You Choose in 2025?"
 description: "A comprehensive comparison of Claude Code and Cursor AI from a professional developer who switched from Cursor to Claude. Real experience building production systems."
+published: false
 
 # Author
 author: "AIPaths Academy"

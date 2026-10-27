@@ -3,6 +3,7 @@ content_id: "docs-clientes-agentes-ia-automatizacion"
 locale: "en"
 title: "How to Find Clients for AI Agents and Automation"
 description: "A practical guide to finding companies that actually need AI agents and automation: buying signals, niches, messaging, channels, and prospecting scripts."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-05-04T19:08:03.038Z"
 updatedAt: "2026-05-04T19:08:03.038Z"

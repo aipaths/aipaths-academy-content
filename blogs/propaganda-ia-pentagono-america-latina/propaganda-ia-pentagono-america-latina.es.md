@@ -3,6 +3,7 @@ content_id: "blogs-propaganda-ia-pentagono-america-latina"
 locale: "es"
 title: "La Tilde y el Pentágono: la propaganda con IA ya apunta a América Latina"
 description: "El caso La Tilde muestra cómo la IA reduce el costo de montar medios de influencia. Qué reveló The Intercept y qué deberían aprender los equipos que usan agentes y contenido automatizado."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-06-15T19:00:00.000Z"
 updatedAt: "2026-06-15T19:00:00.000Z"

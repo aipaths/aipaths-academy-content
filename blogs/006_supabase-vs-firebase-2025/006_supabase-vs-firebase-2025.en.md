@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "Supabase vs Firebase: Which Should You Choose in 2025?"
 description: "Supabase vs Firebase in 2025: detailed comparison of features, pricing, and performance. Make the right choice for your project."
+published: false
 
 # Author
 author: "AIPaths Academy"

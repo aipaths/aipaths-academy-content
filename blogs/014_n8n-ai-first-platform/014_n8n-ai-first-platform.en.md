@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "n8n is Now an AI-First Platform: 75% of Users Build AI Workflows"
 description: "How n8n quietly became the go-to platform for AI automation, with 75% of users now building AI workflows and a $2.5B valuation backed by NVIDIA."
+published: false
 
 # Author
 author: "AIPaths Academy"

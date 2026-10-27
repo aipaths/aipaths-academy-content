@@ -3,6 +3,7 @@ content_id: "blogs-anthropic-project-deal-comercio-agentes-ia"
 locale: "es"
 title: "Anthropic Probó un Marketplace Donde Agentes de IA Compran y Venden por Humanos"
 description: "Anthropic creó Project Deal: un mercado interno donde agentes de Claude negociaron bienes reales con dinero real. Así fue el experimento, qué midieron y qué riesgos abre."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-26T00:00:00.000Z"
 updatedAt: "2026-04-26T00:00:00.000Z"

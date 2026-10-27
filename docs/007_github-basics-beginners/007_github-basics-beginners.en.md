@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "GitHub Fundamentals: A Beginner's Guide to Version Control"
 description: "Learn Git and GitHub from scratch. Complete beginner guide covering repositories, commits, branches, and collaboration workflows."
+published: false
 
 # Author
 author: "AIPaths Academy"

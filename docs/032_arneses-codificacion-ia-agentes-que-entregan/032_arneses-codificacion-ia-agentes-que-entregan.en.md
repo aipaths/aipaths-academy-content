@@ -3,6 +3,7 @@ content_id: "docs-arneses-codificacion-ia-agentes-que-entregan"
 locale: "en"
 title: "AI coding harnesses: the learning curve from prompts to reliable workflows"
 description: "A practical guide to AI coding harnesses: what they are, why they matter, and how to move through the learning curve without losing technical control."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-04-30T12:07:11.031Z"
 updatedAt: "2026-04-30T12:07:11.031Z"

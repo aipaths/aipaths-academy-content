@@ -3,6 +3,7 @@ content_id: "docs-startup-ia-o-saas-con-ia"
 locale: "en"
 title: "AI Startup or SaaS with AI? How to Choose a Defensible Idea"
 description: "Learn when to build an AI-first startup, when to build SaaS with AI, and how to avoid launching a wrapper with no defensible moat."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-06-01T19:15:19.848Z"
 updatedAt: "2026-06-01T19:15:19.848Z"

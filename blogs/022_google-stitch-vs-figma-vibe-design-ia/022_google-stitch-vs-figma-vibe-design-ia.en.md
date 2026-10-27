@@ -3,6 +3,7 @@ content_id: "blogs-google-stitch-vs-figma-vibe-design-ia"
 locale: "en"
 title: "Google Stitch: The Free AI Tool That Crashed Figma's Stock 8.8%"
 description: "Google updated Stitch with Vibe Design, Voice Canvas, and React code generation. Figma stock dropped 8.8% the next day. From vibe coding to vibe design: AI now replaces designers too."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-03-21T12:11:47.137Z"
 updatedAt: "2026-03-21T12:11:47.137Z"

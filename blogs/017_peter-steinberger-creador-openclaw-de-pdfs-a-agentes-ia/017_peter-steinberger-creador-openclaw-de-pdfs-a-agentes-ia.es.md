@@ -3,6 +3,7 @@ content_id: "blogs-peter-steinberger-creador-openclaw-de-pdfs-a-agentes-ia"
 locale: "es"
 title: "Peter Steinberger: De PDFs a Agentes de IA — La Historia del Creador de OpenClaw"
 description: "La historia de Peter Steinberger: de bootstrappear PSPDFKit hasta una exit de €100M, quemarse por completo, y reinventarse con IA creando OpenClaw en una hora desde Marrakesh."
+published: false
 author: "AIPaths Academy"
 publishedAt: "2026-02-19T20:12:24.602Z"
 updatedAt: "2026-02-20T10:00:00.000Z"

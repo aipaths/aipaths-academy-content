@@ -8,6 +8,7 @@ locale: "es"
 # SEO & Display
 title: "Supabase vs Firebase: ¿Cuál deberías elegir en 2025?"
 description: "Una comparación exhaustiva de un desarrollador que ha usado ambas en producción. Precios reales, experiencias de migración y cuándo brilla cada plataforma."
+published: false
 
 # Author
 author: "AIPaths Academy"

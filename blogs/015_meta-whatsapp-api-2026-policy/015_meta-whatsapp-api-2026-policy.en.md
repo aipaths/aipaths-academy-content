@@ -8,6 +8,7 @@ locale: "en"
 # SEO & Display
 title: "WhatsApp Business API: Meta's 2026 Policy Changes Explained"
 description: "Meta bans general-purpose AI chatbots from WhatsApp, faces antitrust investigations in EU, Italy, and Brazil, plus new per-message pricing changes."
+published: false
 
 # Author
 author: "AIPaths Academy"
